@@ -234,4 +234,19 @@
       <initValue>'082273652444'</initValue>
       <name>hp_terblokir</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'------------------------------------------------------------------------------------------------------------------------------------'</initValue>
+      <name>DATA_GITHUB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BayuSulis21'</initValue>
+      <name>user_github</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'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'</initValue>
+      <name>pass_github</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

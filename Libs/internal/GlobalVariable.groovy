@@ -242,6 +242,21 @@ Profile backup : Nominal bayar test QRIS</p>
      */
     public static Object hp_terblokir
      
+    /**
+     * <p></p>
+     */
+    public static Object DATA_GITHUB
+     
+    /**
+     * <p></p>
+     */
+    public static Object user_github
+     
+    /**
+     * <p></p>
+     */
+    public static Object pass_github
+     
 
     static {
         try {
@@ -295,6 +310,9 @@ Profile backup : Nominal bayar test QRIS</p>
             failedURL = selectedVariables['failedURL']
             secretKey = selectedVariables['secretKey']
             hp_terblokir = selectedVariables['hp_terblokir']
+            DATA_GITHUB = selectedVariables['DATA_GITHUB']
+            user_github = selectedVariables['user_github']
+            pass_github = selectedVariables['pass_github']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
