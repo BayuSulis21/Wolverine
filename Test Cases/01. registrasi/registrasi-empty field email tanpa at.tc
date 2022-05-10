@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>registrasi-empty field email tanpa at</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb22fea1-a4f9-4df0-b4b6-c00b5f2aefa0</testCaseGuid>
+</TestCaseEntity>

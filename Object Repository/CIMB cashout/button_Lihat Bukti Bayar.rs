@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Lihat Bukti Bayar</name>
+   <tag></tag>
+   <elementGuidId>b21510d8-afd4-4506-8119-a91123ec1de1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.q-btn.inline.q-btn-item.non-selectable.btn-receipt.q-btn--standard.q-btn--rectangle.q-focusable.q-hoverable</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>73df152e-8f22-4b68-a6e7-0cd883192bbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e3a5ceec-f4e2-4e86-bdff-4b7a617506ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>368b561b-9cf9-4704-8c18-14b44c83c0e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-btn inline q-btn-item non-selectable btn-receipt q-btn--standard q-btn--rectangle q-focusable q-hoverable</value>
+      <webElementGuid>7e614e77-5b55-43e8-ae25-15435c00578d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lihat Bukti Bayar</value>
+      <webElementGuid>5f229353-ad45-4c50-a4eb-0d1a8bdb4752</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;q-layout q-layout--standard&quot;]/div[@class=&quot;q-layout q-layout--standard&quot;]/div[@class=&quot;q-page-container&quot;]/main[@class=&quot;q-page column justify-between&quot;]/div[@class=&quot;q-px-md q-py-lg&quot;]/div[@class=&quot;column items-center content-center q-mt-sm&quot;]/button[@class=&quot;q-btn inline q-btn-item non-selectable btn-receipt q-btn--standard q-btn--rectangle q-focusable q-hoverable&quot;]</value>
+      <webElementGuid>dd0f1126-7208-4290-9c1b-55dcf005a386</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>a1bd4bb7-2dd4-467a-b2ee-490b74569107</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div/div/main/div/div/button</value>
+      <webElementGuid>fddd0cc9-a7cf-4499-80f9-d4e9f066d1b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::button[1]</value>
+      <webElementGuid>f1d172c4-2e48-4234-b6ec-510c924a5224</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>4c1c51c7-38d3-4cb0-9271-ad09f01c2695</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Lihat Bukti Bayar' or . = 'Lihat Bukti Bayar')]</value>
+      <webElementGuid>5feb01f1-8ebe-4e0e-ac6d-4609b306c00b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

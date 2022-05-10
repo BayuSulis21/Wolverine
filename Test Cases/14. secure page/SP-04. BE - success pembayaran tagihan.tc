@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-04. BE - success pembayaran tagihan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae720a7a-3b2c-41e9-a616-44b218e74b80</testCaseGuid>
+</TestCaseEntity>
