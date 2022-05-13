@@ -41,7 +41,7 @@ WebUI.takeScreenshot()
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/secure page-optima/OPTIMA Dashboard - Secure Page Transaction/select_App ID'))
-WebUI.selectOptionByValue(findTestObject('Object Repository/secure page-optima/OPTIMA Dashboard - Secure Page Transaction/select_App ID'), 'MOAJAH', false)
+WebUI.selectOptionByValue(findTestObject('Object Repository/secure page-optima/OPTIMA Dashboard - Secure Page Transaction/select_App ID'), 'OTTO', false)
 WebUI.click(findTestObject('Object Repository/secure page-optima/OPTIMA Dashboard - Secure Page Transaction/select_App ID'))
 WebUI.takeScreenshot()
 WebUI.delay(2)

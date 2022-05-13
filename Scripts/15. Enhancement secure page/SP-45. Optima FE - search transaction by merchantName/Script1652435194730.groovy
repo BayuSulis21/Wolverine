@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Object Repository/secure page-optima/menu_Secure Page Transaction'))
+WebUI.takeScreenshot()
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/secure page-optima/OPTIMA Dashboard - Secure Page Transaction/input_Merchant Name_merchantname'), 'BAYU')
+WebUI.takeScreenshot()
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/secure page-optima/OPTIMA Dashboard - Secure Page Transaction/button_Search'))
+WebUI.takeScreenshot()
+WebUI.delay(3)
+
+
