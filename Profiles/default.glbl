@@ -201,7 +201,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'RTSM;;;;MG00000002121'</initValue>
+      <initValue>'MOAJAH000011111'</initValue>
       <name>merchantId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -246,7 +246,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'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'</initValue>
+      <initValue>'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'</initValue>
       <name>pass_github</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://wolverine-dev.ottodigital.id/optima-web/auth/login'</initValue>
+      <name>url_Optima</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

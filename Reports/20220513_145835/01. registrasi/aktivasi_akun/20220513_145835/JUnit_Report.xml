@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="aktivasi_akun" time="114.987" tests="2" failures="0" errors="0">
+   <testsuite name="aktivasi_akun" tests="2" failures="0" errors="0" time="114.987" skipped="0" timestamp="2022-05-13 14:58:51" hostname="bayusulistyo - 10.0.40.35" id="Test Suites/01. registrasi/aktivasi_akun">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835"/>
+         <property name="logFiles" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/execution0.log, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/appium.log"/>
+         <property name="attachments" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428792135.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428806628.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428824556.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428833744.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428843914.png"/>
+         <property name="hostName" value="bayusulistyo - 10.0.40.35"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Redmi Note 9 Pro"/>
+         <property name="hostAddress" value="10.0.40.35"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="8756e6bc"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/01. registrasi/setup_ocdk" time="61.432" classname="Test Cases/01. registrasi/setup_ocdk" status="PASSED">
+         <system-out><![CDATA[2022-05-13 14:58:52 - [TEST_CASE][PASSED] - Test Cases/01. registrasi/setup_ocdk: Test Cases/01. registrasi/setup_ocdk
+
+2022-05-13 14:58:53 - [TEST_STEP][PASSED] - startApplication("/Users/bayusulistyo/Downloads/" + apk, true): Started app at: '/Users/bayusulistyo/Downloads/ottosdk-hostapp-27-01-2021.apk'
+
+2022-05-13 14:58:57 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-05-13 14:58:57 - [MESSAGE][INFO] - User set preference: ['deviceId', '8756e6bc']
+
+2022-05-13 14:58:57 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-05-13 14:59:02 - [MESSAGE][INFO] - Appium server started on port 62,250
+
+2022-05-13 14:59:40 - [MESSAGE][PASSED] - Started app at: '/Users/bayusulistyo/Downloads/ottosdk-hostapp-27-01-2021.apk'
+
+2022-05-13 14:59:40 - [TEST_STEP][PASSED] - comment("Set Link Otto Cash"): Set Link Otto Cash
+
+2022-05-13 14:59:40 - [MESSAGE][INFO] - Set Link Otto Cash
+
+2022-05-13 14:59:40 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EUrl"), baseUrl, 0): Text 'https://wolverine-dev.ottodigital.id/ocsdk' has been set to element 'Object Repository/Setup/EUrl'
+
+2022-05-13 14:59:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 14:59:42 - [MESSAGE][PASSED] - Text 'https://wolverine-dev.ottodigital.id/ocsdk' has been set to element 'Object Repository/Setup/EUrl'
+
+2022-05-13 14:59:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 14:59:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-13 14:59:43 - [TEST_STEP][PASSED] - comment("Set Hp Customer"): Set Hp Customer
+
+2022-05-13 14:59:43 - [MESSAGE][INFO] - Set Hp Customer
+
+2022-05-13 14:59:43 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EPhone"), hp, 0): Text '0895635114073' has been set to element 'Object Repository/Setup/EPhone'
+
+2022-05-13 14:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 14:59:44 - [MESSAGE][PASSED] - Text '0895635114073' has been set to element 'Object Repository/Setup/EPhone'
+
+2022-05-13 14:59:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 14:59:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - appID = app_id: null
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - ClientID = "": null
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - SecretID = "": null
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - switch (appID): null
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - case "INDOLIFE":: null
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - ClientID = ClientID_INDOLIFE: null
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - SecretID = SecretID_INDOLIFE: null
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - break: null
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - comment("Set AppID"): Set AppID
+
+2022-05-13 14:59:45 - [MESSAGE][INFO] - Set AppID
+
+2022-05-13 14:59:45 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EappID"), appID, 0): Text 'INDOLIFE' has been set to element 'Object Repository/Setup/EappID'
+
+2022-05-13 14:59:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 14:59:46 - [MESSAGE][PASSED] - Text 'INDOLIFE' has been set to element 'Object Repository/Setup/EappID'
+
+2022-05-13 14:59:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 14:59:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-13 14:59:47 - [TEST_STEP][PASSED] - comment("Set ClientID"): Set ClientID
+
+2022-05-13 14:59:47 - [MESSAGE][INFO] - Set ClientID
+
+2022-05-13 14:59:47 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EClientID"), ClientID, 0): Text '9wT4ncv3Dpo5IEKGsMtzZ_ESbEEa' has been set to element 'Object Repository/Setup/EClientID'
+
+2022-05-13 14:59:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 14:59:48 - [MESSAGE][PASSED] - Text '9wT4ncv3Dpo5IEKGsMtzZ_ESbEEa' has been set to element 'Object Repository/Setup/EClientID'
+
+2022-05-13 14:59:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 14:59:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-13 14:59:49 - [TEST_STEP][PASSED] - comment("Set SecretID"): Set SecretID
+
+2022-05-13 14:59:49 - [MESSAGE][INFO] - Set SecretID
+
+2022-05-13 14:59:49 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EClientSecret"), SecretID, 0): Text '7iUu0rGcTRZ0F5bqpaysMmNNL44a' has been set to element 'Object Repository/Setup/EClientSecret'
+
+2022-05-13 14:59:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 14:59:50 - [MESSAGE][PASSED] - Text '7iUu0rGcTRZ0F5bqpaysMmNNL44a' has been set to element 'Object Repository/Setup/EClientSecret'
+
+2022-05-13 14:59:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 14:59:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-13 14:59:51 - [TEST_STEP][PASSED] - comment("Save Setup"): Save Setup
+
+2022-05-13 14:59:51 - [MESSAGE][INFO] - Save Setup
+
+2022-05-13 14:59:51 - [TEST_STEP][PASSED] - tap(findTestObject("Setup/SaveSetup"), 0): Tapped on element 'Object Repository/Setup/SaveSetup'
+
+2022-05-13 14:59:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 14:59:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Setup/SaveSetup'
+
+2022-05-13 14:59:52 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2022-05-13 14:59:53 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428792135.png]]
+
+2022-05-13 14:59:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 14:59:54 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01. registrasi/aktivasi_akun" time="52.755" classname="Test Cases/01. registrasi/aktivasi_akun" status="PASSED">
+         <system-out><![CDATA[2022-05-13 14:59:54 - [TEST_CASE][PASSED] - Test Cases/01. registrasi/aktivasi_akun: Test Cases/01. registrasi/aktivasi_akun
+
+2022-05-13 14:59:55 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("aktivasi/menu"), 5, OPTIONAL)): Element 'Object Repository/aktivasi/menu' not found
+
+2022-05-13 15:00:00 - [MESSAGE][WARNING] - Element 'Object Repository/aktivasi/menu' not found
+
+2022-05-13 15:00:00 - [TEST_STEP][PASSED] - else: null
+
+2022-05-13 15:00:00 - [TEST_STEP][PASSED] - comment("Checklist"): Checklist
+
+2022-05-13 15:00:00 - [MESSAGE][INFO] - Checklist
+
+2022-05-13 15:00:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/aktivasi/checklist"), 0): Tapped on element 'Object Repository/aktivasi/checklist'
+
+2022-05-13 15:00:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/aktivasi/checklist'
+
+2022-05-13 15:00:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 15:00:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-13 15:00:06 - [TEST_STEP][PASSED] - comment("Klik Aktifkan"): Klik Aktifkan
+
+2022-05-13 15:00:06 - [MESSAGE][INFO] - Klik Aktifkan
+
+2022-05-13 15:00:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/aktivasi/Aktifkan"), 0): Tapped on element 'Object Repository/aktivasi/Aktifkan'
+
+2022-05-13 15:00:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/aktivasi/Aktifkan'
+
+2022-05-13 15:00:06 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2022-05-13 15:00:07 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428806628.png]]
+
+2022-05-13 15:00:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-05-13 15:00:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-05-13 15:00:09 - [TEST_STEP][PASSED] - responseObj = sendRequest(findTestObject("Object Repository/GetOTP")): Send request successfully
+
+2022-05-13 15:00:11 - [MESSAGE][INFO] - HAR: /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/requests/main/0.har
+
+2022-05-13 15:00:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 15:00:11 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(responseObj, 200)): null
+
+2022-05-13 15:00:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 15:00:11 - [TEST_STEP][PASSED] - out.println("Get OTP BERHASIL"): null
+
+2022-05-13 15:00:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-05-13 15:00:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-05-13 15:00:14 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-05-13 15:00:14 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseObj.getResponseText()): null
+
+2022-05-13 15:00:14 - [TEST_STEP][PASSED] - getOTP = get("otp").get("otp_number"): null
+
+2022-05-13 15:00:14 - [TEST_STEP][PASSED] - out.println(getOTP): null
+
+2022-05-13 15:00:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 15:00:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - varOTP = getOTP: null
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - otp1 = substring(0, 1).trim(): null
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - otp2 = substring(1, 2).trim(): null
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - otp3 = substring(2, 3).trim(): null
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - otp4 = substring(3, 4).trim(): null
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - otp5 = substring(4, 5).trim(): null
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - otp6 = substring(5, 6).trim(): null
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - comment("Input OTP"): Input OTP
+
+2022-05-13 15:00:15 - [MESSAGE][INFO] - Input OTP
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-13 15:00:15 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-13 15:00:15 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp1"), otp1, 0): Text '3' has been set to element 'Object Repository/aktivasi/Eotp1'
+
+2022-05-13 15:00:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:16 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/aktivasi/Eotp1'
+
+2022-05-13 15:00:16 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-13 15:00:17 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-13 15:00:17 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp2"), otp2, 0): Text '3' has been set to element 'Object Repository/aktivasi/Eotp2'
+
+2022-05-13 15:00:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:18 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/aktivasi/Eotp2'
+
+2022-05-13 15:00:18 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-13 15:00:19 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-13 15:00:19 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp3"), otp3, 0): Text '2' has been set to element 'Object Repository/aktivasi/Eotp3'
+
+2022-05-13 15:00:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:20 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/aktivasi/Eotp3'
+
+2022-05-13 15:00:20 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-13 15:00:21 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-13 15:00:21 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp4"), otp4, 0): Text '7' has been set to element 'Object Repository/aktivasi/Eotp4'
+
+2022-05-13 15:00:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:22 - [MESSAGE][PASSED] - Text '7' has been set to element 'Object Repository/aktivasi/Eotp4'
+
+2022-05-13 15:00:22 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-13 15:00:22 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-13 15:00:22 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp5"), otp5, 0): Text '6' has been set to element 'Object Repository/aktivasi/Eotp5'
+
+2022-05-13 15:00:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:23 - [MESSAGE][PASSED] - Text '6' has been set to element 'Object Repository/aktivasi/Eotp5'
+
+2022-05-13 15:00:23 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-05-13 15:00:24 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-05-13 15:00:24 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2022-05-13 15:00:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428824556.png]]
+
+2022-05-13 15:00:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 15:00:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-13 15:00:26 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp6"), otp6, 0): Text '3' has been set to element 'Object Repository/aktivasi/Eotp6'
+
+2022-05-13 15:00:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:26 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/aktivasi/Eotp6'
+
+2022-05-13 15:00:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-13 15:00:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-13 15:00:29 - [TEST_STEP][PASSED] - comment("Input PIN"): Input PIN
+
+2022-05-13 15:00:29 - [MESSAGE][INFO] - Input PIN
+
+2022-05-13 15:00:29 - [TEST_STEP][PASSED] - varPIN = pin: null
+
+2022-05-13 15:00:29 - [TEST_STEP][PASSED] - pin1 = substring(0, 1).trim(): null
+
+2022-05-13 15:00:29 - [TEST_STEP][PASSED] - pin2 = substring(1, 2).trim(): null
+
+2022-05-13 15:00:29 - [TEST_STEP][PASSED] - pin3 = substring(2, 3).trim(): null
+
+2022-05-13 15:00:29 - [TEST_STEP][PASSED] - pin4 = substring(3, 4).trim(): null
+
+2022-05-13 15:00:30 - [TEST_STEP][PASSED] - pin5 = substring(4, 5).trim(): null
+
+2022-05-13 15:00:30 - [TEST_STEP][PASSED] - pin6 = substring(5, 6).trim(): null
+
+2022-05-13 15:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin1"), pin1, 0): Text '1' has been set to element 'Object Repository/aktivasi/Epin1'
+
+2022-05-13 15:00:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:30 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/aktivasi/Epin1'
+
+2022-05-13 15:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin2"), pin2, 0): Text '9' has been set to element 'Object Repository/aktivasi/Epin2'
+
+2022-05-13 15:00:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:31 - [MESSAGE][PASSED] - Text '9' has been set to element 'Object Repository/aktivasi/Epin2'
+
+2022-05-13 15:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin3"), pin3, 0): Text '1' has been set to element 'Object Repository/aktivasi/Epin3'
+
+2022-05-13 15:00:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:32 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/aktivasi/Epin3'
+
+2022-05-13 15:00:32 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin4"), pin4, 0): Text '1' has been set to element 'Object Repository/aktivasi/Epin4'
+
+2022-05-13 15:00:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:32 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/aktivasi/Epin4'
+
+2022-05-13 15:00:32 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin5"), pin5, 0): Text '6' has been set to element 'Object Repository/aktivasi/Epin5'
+
+2022-05-13 15:00:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:33 - [MESSAGE][PASSED] - Text '6' has been set to element 'Object Repository/aktivasi/Epin5'
+
+2022-05-13 15:00:33 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2022-05-13 15:00:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428833744.png]]
+
+2022-05-13 15:00:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-13 15:00:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-13 15:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin6"), pin6, 0): Text '4' has been set to element 'Object Repository/aktivasi/Epin6'
+
+2022-05-13 15:00:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:36 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/aktivasi/Epin6'
+
+2022-05-13 15:00:36 - [TEST_STEP][PASSED] - comment("Klik Selesai Aktivasi"): Klik Selesai Aktivasi
+
+2022-05-13 15:00:36 - [MESSAGE][INFO] - Klik Selesai Aktivasi
+
+2022-05-13 15:00:36 - [TEST_STEP][PASSED] - tap(findTestObject("aktivasi/BtnSelesai"), 0): Tapped on element 'Object Repository/aktivasi/BtnSelesai'
+
+2022-05-13 15:00:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-13 15:00:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/aktivasi/BtnSelesai'
+
+2022-05-13 15:00:43 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2022-05-13 15:00:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_145835/01. registrasi/aktivasi_akun/20220513_145835/1652428843914.png]]
+
+2022-05-13 15:00:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-05-13 15:00:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-13 14:58:51 - [TEST_SUITE][PASSED] - aktivasi_akun: Test Cases/01. registrasi/aktivasi_akun]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

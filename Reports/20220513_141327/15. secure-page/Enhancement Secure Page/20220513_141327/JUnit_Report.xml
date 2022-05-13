@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Enhancement Secure Page" time="48.048" tests="3" failures="0" errors="0">
+   <testsuite name="Enhancement Secure Page" tests="3" failures="0" errors="0" time="48.048" skipped="0" timestamp="2022-05-13 14:13:42" hostname="bayusulistyo - 10.0.40.35" id="Test Suites/15. secure-page/Enhancement Secure Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327"/>
+         <property name="logFiles" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/execution0.log"/>
+         <property name="attachments" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426035969.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426040323.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426050339.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426054422.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426060433.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426066627.png"/>
+         <property name="hostName" value="bayusulistyo - 10.0.40.35"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 101.0.4951.64"/>
+         <property name="hostAddress" value="10.0.40.35"/>
+         <property name="sessionId" value="93ada11ba79e92cdf46efdbc9647ac9e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/15. Enhancement secure page/SP-24. Optima FE - Menu Secure page" time="34.422" classname="Test Cases/15. Enhancement secure page/SP-24. Optima FE - Menu Secure page" status="PASSED">
+         <system-out><![CDATA[2022-05-13 14:13:43 - [TEST_CASE][PASSED] - Test Cases/15. Enhancement secure page/SP-24. Optima FE - Menu Secure page: Test Cases/15. Enhancement secure page/SP-24. Optima FE - Menu Secure page
+
+2022-05-13 14:13:43 - [TEST_STEP][PASSED] - openBrowser(url_Optima): Browser is opened with url: 'https://wolverine-dev.ottodigital.id/optima-web/auth/login'
+
+2022-05-13 14:13:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-13 14:13:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-13 14:13:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://wolverine-dev.ottodigital.id/optima-web/auth/login'
+
+2022-05-13 14:13:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-13 14:13:53 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-13 14:13:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-05-13 14:13:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-05-13 14:13:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-13 14:13:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426035969.png]]
+
+2022-05-13 14:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/secure page-optima/input_Username_email"), "admin@ottodigital.id"): Text 'admin@ottodigital.id' is set on object 'Object Repository/secure page-optima/input_Username_email'
+
+2022-05-13 14:13:57 - [MESSAGE][PASSED] - Text 'admin@ottodigital.id' is set on object 'Object Repository/secure page-optima/input_Username_email'
+
+2022-05-13 14:13:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-05-13 14:13:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-05-13 14:13:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/secure page-optima/input_Password_password"), "admin"): Text 'admin' is set on object 'Object Repository/secure page-optima/input_Password_password'
+
+2022-05-13 14:14:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/secure page-optima/input_Password_password'
+
+2022-05-13 14:14:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-13 14:14:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426040323.png]]
+
+2022-05-13 14:14:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-05-13 14:14:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-05-13 14:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/secure page-optima/input_Password_submit")): Object: 'Object Repository/secure page-optima/input_Password_submit' is clicked on
+
+2022-05-13 14:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/secure page-optima/input_Password_submit' is clicked on
+
+2022-05-13 14:14:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-13 14:14:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426050339.png]]
+
+2022-05-13 14:14:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-13 14:14:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-13 14:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/secure page-optima/menu_Secure Page")): Object: 'Object Repository/secure page-optima/menu_Secure Page' is clicked on
+
+2022-05-13 14:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/secure page-optima/menu_Secure Page' is clicked on
+
+2022-05-13 14:14:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-13 14:14:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426054422.png]]
+
+2022-05-13 14:14:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-13 14:14:17 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/15. Enhancement secure page/SP-25. Optima FE - Report Secure page Transaction" time="5.939" classname="Test Cases/15. Enhancement secure page/SP-25. Optima FE - Report Secure page Transaction" status="PASSED">
+         <system-out><![CDATA[2022-05-13 14:14:17 - [TEST_CASE][PASSED] - Test Cases/15. Enhancement secure page/SP-25. Optima FE - Report Secure page Transaction: Test Cases/15. Enhancement secure page/SP-25. Optima FE - Report Secure page Transaction
+
+2022-05-13 14:14:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/secure page-optima/menu_Secure Page Transaction")): Object: 'Object Repository/secure page-optima/menu_Secure Page Transaction' is clicked on
+
+2022-05-13 14:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/secure page-optima/menu_Secure Page Transaction' is clicked on
+
+2022-05-13 14:14:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-13 14:14:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426060433.png]]
+
+2022-05-13 14:14:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-13 14:14:23 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/15. Enhancement secure page/SP-26. Optima FE - Report Secure page refund Transaction" time="6.48" classname="Test Cases/15. Enhancement secure page/SP-26. Optima FE - Report Secure page refund Transaction" status="PASSED">
+         <system-out><![CDATA[2022-05-13 14:14:23 - [TEST_CASE][PASSED] - Test Cases/15. Enhancement secure page/SP-26. Optima FE - Report Secure page refund Transaction: Test Cases/15. Enhancement secure page/SP-26. Optima FE - Report Secure page refund Transaction
+
+2022-05-13 14:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/secure page-optima/menu_Secure Page Refund Transaction")): Object: 'Object Repository/secure page-optima/menu_Secure Page Refund Transaction' is clicked on
+
+2022-05-13 14:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/secure page-optima/menu_Secure Page Refund Transaction' is clicked on
+
+2022-05-13 14:14:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-05-13 14:14:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220513_141327/15. secure-page/Enhancement Secure Page/20220513_141327/1652426066627.png]]
+
+2022-05-13 14:14:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-13 14:14:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-13 14:14:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-13 14:14:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-13 14:13:42 - [TEST_SUITE][PASSED] - Enhancement Secure Page: Test Cases/15. Enhancement secure page/SP-26. Optima FE - Report Secure page refund Transaction]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

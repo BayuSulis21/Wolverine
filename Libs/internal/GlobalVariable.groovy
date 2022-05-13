@@ -257,6 +257,11 @@ Profile backup : Nominal bayar test QRIS</p>
      */
     public static Object pass_github
      
+    /**
+     * <p></p>
+     */
+    public static Object url_Optima
+     
 
     static {
         try {
@@ -313,6 +318,7 @@ Profile backup : Nominal bayar test QRIS</p>
             DATA_GITHUB = selectedVariables['DATA_GITHUB']
             user_github = selectedVariables['user_github']
             pass_github = selectedVariables['pass_github']
+            url_Optima = selectedVariables['url_Optima']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
