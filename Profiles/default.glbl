@@ -206,7 +206,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'GLODOK SHOP'</initValue>
+      <initValue>'XMEN SHOP'</initValue>
       <name>merchantName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -228,6 +228,11 @@
       <description></description>
       <initValue>'UEvwV+7vVmLYlrdu3mhTRla56AsGP1XxJWMXZpnoh4s='</initValue>
       <name>secretKey</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfeSnhA9bHgdv2eLJfHXvfQOzVXj4Lb4kjCQ4m6xtMj/aeeB/uzyBxFTtn6DGBRI/ckl+Tqc0KucLnQnWCBCO2daoWMPj2MFh5xq5PTTgyQpNIKcs/1Q39W3ZJ+O4LSM4/UScJUJrBMlX36LDdrz4JBS8DpJdUqcOCEaWxL8bj/wIDAQAB'</initValue>
+      <name>publicKeyString</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

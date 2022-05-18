@@ -42,10 +42,11 @@ import org.apache.commons.codec.binary.Base64;
 	String partnerRefundId='1234'
 	String refferenceNumber=''
 	String status=''
+	String MerchantName=''
 	
-	WebUI.comment('parameter: '+'\n'+'phoneNumber: '+phoneNumber+'\n'+'Periode: ' + startDate+' s/d '+endDate+'\n'+'appsID: '+appsID+'\n'+'partnerRefundId: '+partnerRefundId+'\n'+'refferenceNumber: '+refferenceNumber+'\n'+'status: '+status)
+	WebUI.comment('parameter: '+'\n'+'phoneNumber: '+phoneNumber+'\n'+'Periode: ' + startDate+' s/d '+endDate+'\n'+'appsID: '+appsID+'\n'+'partnerRefundId: '+partnerRefundId+'\n'+'refferenceNumber: '+refferenceNumber+'\n'+'status: '+status+'\n'+'MerchantName: '+MerchantName)
 	
-	RequestObject RefundDetail=findTestObject('Object Repository/secure page-optima/RefundDetail',[('phoneNumber'): phoneNumber,('startdate'): startDate,('enddate'): endDate,('AppID'): appsID,('partnerRefundID'): partnerRefundId,('reffNo'): refferenceNumber,('status'): status])
+	RequestObject RefundDetail=findTestObject('Object Repository/secure page-optima/RefundDetail',[('phoneNumber'): phoneNumber,('startdate'): startDate,('enddate'): endDate,('AppID'): appsID,('partnerRefundID'): partnerRefundId,('reffNo'): refferenceNumber,('status'): status,('merchantName'): MerchantName])
 	
 	def responseObj = WS.sendRequest(RefundDetail)
 	WS.verifyResponseStatusCode(responseObj, 200)

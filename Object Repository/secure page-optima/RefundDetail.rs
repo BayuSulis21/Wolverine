@@ -15,7 +15,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://34.101.167.194:9054/securepage/webadmin/v1/info/refund/detail?startDate=${startdate}&amp;endDate=${enddate}&amp;appId=${AppID}&amp;partnerRefundId=${partnerRefundID}&amp;referenceNumber=${reffNo}&amp;limit=3&amp;offset=0&amp;status=${status}&amp;phoneNumber=${phoneNumber}</restUrl>
+   <restUrl>http://34.101.167.194:9054/securepage/webadmin/v1/info/refund/detail?startDate=${startdate}&amp;endDate=${enddate}&amp;appId=${AppID}&amp;partnerRefundId=${partnerRefundID}&amp;referenceNumber=${reffNo}&amp;limit=3&amp;offset=0&amp;status=${status}&amp;phoneNumber=${phoneNumber}&amp;merchantName=${merchantName}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

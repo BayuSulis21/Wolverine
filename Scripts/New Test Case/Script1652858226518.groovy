@@ -34,27 +34,12 @@ import java.security.InvalidKeyException;
 import java.security.Signature
 
 import org.apache.commons.codec.binary.Base64;
- 
-	String phoneNumber='0895635114073'
-	String startDate=''
-	String endDate=''
-	String appsID=''
-	String partnerRefundId=''
-	String refferenceNumber=''
-	String status=''
-	
-	WebUI.comment('parameter: '+'\n'+'phoneNumber: '+phoneNumber+'\n'+'Periode: ' + startDate+' s/d '+endDate+'\n'+'appsID: '+appsID+'\n'+'partnerRefundId: '+partnerRefundId+'\n'+'refferenceNumber: '+refferenceNumber+'\n'+'status: '+status)
-	
-	RequestObject RefundDetail=findTestObject('Object Repository/secure page-optima/RefundDetail',[('phoneNumber'): phoneNumber,('startdate'): startDate,('enddate'): endDate,('AppID'): appsID,('partnerRefundID'): partnerRefundId,('reffNo'): refferenceNumber,('status'): status])
-	
-	def responseObj = WS.sendRequest(RefundDetail)
-	WS.verifyResponseStatusCode(responseObj, 200)
-	WS.verifyElementPropertyValue(responseObj, 'status', "SUCCESS")
-	responseCode = responseObj.getStatusCode()
-	JsonSlurper slurper = new JsonSlurper()
-	Map parsedJson = slurper.parseText(responseObj.getResponseText())
-	
-	WebUI.comment('response Code: ' + responseCode)
-	WebUI.comment(parsedJson.toString())
-	
+
+String jsonbody_posting = '{"pin": "'+GlobalVariable.pin+'","referenceNumber": "C41800000964"}'
+String jsonbody_posting_replace = '{pin:'+GlobalVariable.pin+',referenceNumber:C41800000964}'
+String jsonbody_uppercase= jsonbody_posting_replace.toUpperCase()
+String jsonbody_posting_sign = jsonbody_uppercase+":1508792287967"
+WebUI.comment(jsonbody_posting_sign)
+
+
 

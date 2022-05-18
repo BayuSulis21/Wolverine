@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/_x/hzlzwd8j20gfzg0809vw8zhh0000gq/T/Katalon/Test Cases/15. Enhancement secure page/SP-44. Optima FE - search transaction by AppID/20220513_144055/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/_x/hzlzwd8j20gfzg0809vw8zhh0000gq/T/Katalon/20220517_153238/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/15. Enhancement secure page/SP-44. Optima FE - search transaction by AppID', new TestCaseBinding('Test Cases/15. Enhancement secure page/SP-44. Optima FE - search transaction by AppID',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-48. Optima FE - search transaction by PhoneNo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bedd8318-63d7-4d83-bc29-a416328e4fb7</testCaseGuid>
+</TestCaseEntity>

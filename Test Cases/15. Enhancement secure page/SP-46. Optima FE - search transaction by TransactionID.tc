@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-46. Optima FE - search transaction by TransactionID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d3c6f06-f751-487e-9002-59ad1cab67cd</testCaseGuid>
+</TestCaseEntity>

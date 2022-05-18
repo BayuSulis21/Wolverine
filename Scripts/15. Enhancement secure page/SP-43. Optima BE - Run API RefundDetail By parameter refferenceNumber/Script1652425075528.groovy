@@ -42,6 +42,11 @@ import org.apache.commons.codec.binary.Base64;
 	String partnerRefundId=''
 	String refferenceNumber='B62600000028'
 	String status=''
+	String MerchantName='BAYU'
+	
+	WebUI.comment('parameter: '+'\n'+'phoneNumber: '+phoneNumber+'\n'+'Periode: ' + startDate+' s/d '+endDate+'\n'+'appsID: '+appsID+'\n'+'partnerRefundId: '+partnerRefundId+'\n'+'refferenceNumber: '+refferenceNumber+'\n'+'status: '+status+'\n'+'MerchantName: '+MerchantName)
+	
+	RequestObject RefundDetail=findTestObject('Object Repository/secure page-optima/RefundDetail',[('phoneNumber'): phoneNumber,('startdate'): startDate,('enddate'): endDate,('AppID'): appsID,('partnerRefundID'): partnerRefundId,('reffNo'): refferenceNumber,('status'): status,('merchantName'): MerchantName])
 	
 	WebUI.comment('parameter: '+'\n'+'phoneNumber: '+phoneNumber+'\n'+'Periode: ' + startDate+' s/d '+endDate+'\n'+'appsID: '+appsID+'\n'+'partnerRefundId: '+partnerRefundId+'\n'+'refferenceNumber: '+refferenceNumber+'\n'+'status: '+status)
 	

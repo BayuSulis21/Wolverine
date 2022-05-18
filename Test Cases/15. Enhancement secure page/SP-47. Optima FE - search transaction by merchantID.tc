@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SP-12. BE - pembayaran tagihan dengan kondisi PIN Invalid</name>
+   <name>SP-47. Optima FE - search transaction by merchantID</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>69f26a06-ff76-4b39-a195-4c1fa9956191</testCaseGuid>
+   <testCaseGuid>71867a1e-8e7a-4a23-be7a-6782c9d560c1</testCaseGuid>
 </TestCaseEntity>

@@ -240,6 +240,11 @@ Profile backup : Nominal bayar test QRIS</p>
     /**
      * <p></p>
      */
+    public static Object publicKeyString
+     
+    /**
+     * <p></p>
+     */
     public static Object hp_terblokir
      
     /**
@@ -314,6 +319,7 @@ Profile backup : Nominal bayar test QRIS</p>
             successURL = selectedVariables['successURL']
             failedURL = selectedVariables['failedURL']
             secretKey = selectedVariables['secretKey']
+            publicKeyString = selectedVariables['publicKeyString']
             hp_terblokir = selectedVariables['hp_terblokir']
             DATA_GITHUB = selectedVariables['DATA_GITHUB']
             user_github = selectedVariables['user_github']

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-55. Optima FE - search refund transaction by PartnerRefundID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bc78c4d-7b46-46ae-944c-2b8649fd4bf5</testCaseGuid>
+</TestCaseEntity>
