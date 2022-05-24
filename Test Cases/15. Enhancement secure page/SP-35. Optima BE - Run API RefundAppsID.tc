@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-35. Optima BE - Run API RefundAppsID</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>68b3cf5f-d2a7-411d-8f83-4dbc76904fb0</testCaseGuid>
-</TestCaseEntity>

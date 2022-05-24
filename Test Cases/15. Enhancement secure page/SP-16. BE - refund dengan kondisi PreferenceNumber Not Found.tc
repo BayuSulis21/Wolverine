@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-16. BE - refund dengan kondisi PreferenceNumber Not Found</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8dfa88be-a616-4e52-9442-f659637e3d7d</testCaseGuid>
+</TestCaseEntity>

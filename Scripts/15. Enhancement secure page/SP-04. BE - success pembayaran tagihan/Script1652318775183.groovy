@@ -37,14 +37,13 @@ import org.apache.commons.codec.binary.Base64;
 	RequestObject Inquiry=findTestObject('Object Repository/Secure page/Inquiry')
 	
 	//set secretkey
-	String secretKey=GlobalVariable.secretKey
+	String secretKey=GlobalVariable.secretKey_MOAJA
 	
 	//set httpheader
 	String Timestamp = GlobalVariable.Timestamp
 	String AppsID = GlobalVariable.AppsID
 	String Signature = ""
 	String requestMethod = GlobalVariable.requestMethod
-	String authHeader = GlobalVariable.authHeader
 	
 	//set httpbody
 	String merchantId=GlobalVariable.merchantId
@@ -92,7 +91,6 @@ import org.apache.commons.codec.binary.Base64;
 	HTTPHeader.add(new TestObjectProperty('Timestamp', ConditionType.EQUALS,Timestamp))
 	HTTPHeader.add(new TestObjectProperty('Apps-ID', ConditionType.EQUALS,AppsID))
 	HTTPHeader.add(new TestObjectProperty('Signature', ConditionType.EQUALS,Signature))
-	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,authHeader))
 	Inquiry.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Inquiry)

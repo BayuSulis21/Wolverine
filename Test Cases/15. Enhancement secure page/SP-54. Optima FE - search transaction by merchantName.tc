@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-54. Optima FE - search transaction by merchantName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c64589d6-4ac2-473a-8f3c-3c0c567edeb2</testCaseGuid>
+</TestCaseEntity>

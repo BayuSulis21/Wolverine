@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-21. BE - pembayaran tagihan dengan kondisi No Rekening terblokir</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7309541-5d1d-4024-b56a-6920797cb3c4</testCaseGuid>
+</TestCaseEntity>

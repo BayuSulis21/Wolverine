@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-11. BE - refund 2 kali dengan kondisi summary refund sama dengan tagihan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27900dd2-cda9-44f0-8bf1-c6cda779fbeb</testCaseGuid>
+</TestCaseEntity>

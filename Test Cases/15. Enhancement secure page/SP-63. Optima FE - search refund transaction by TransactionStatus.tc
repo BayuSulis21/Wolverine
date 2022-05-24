@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-63. Optima FE - search refund transaction by TransactionStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d415cb1c-0613-4497-ae74-c750f372d912</testCaseGuid>
+</TestCaseEntity>

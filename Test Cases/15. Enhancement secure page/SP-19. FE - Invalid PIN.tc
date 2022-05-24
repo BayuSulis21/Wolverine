@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-19. FE - Invalid PIN</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9a7bb978-e739-4954-82cf-75217c9828e1</testCaseGuid>
-</TestCaseEntity>

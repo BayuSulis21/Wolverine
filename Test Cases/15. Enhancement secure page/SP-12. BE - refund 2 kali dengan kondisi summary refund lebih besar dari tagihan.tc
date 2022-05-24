@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-12. BE - refund 2 kali dengan kondisi summary refund lebih besar dari tagihan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d85c9565-de14-412a-a8bb-997ae2f596b3</testCaseGuid>
+</TestCaseEntity>

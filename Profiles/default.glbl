@@ -15,7 +15,7 @@
       <name>baseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>087875878815,087800190001</description>
+      <description>0895635114073,087712345678</description>
       <initValue>'0895635114073'</initValue>
       <name>hp</name>
    </GlobalVariableEntity>
@@ -181,7 +181,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'OTTOCASH'</initValue>
+      <initValue>'MOAJA'</initValue>
       <name>AppsID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -206,7 +206,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'XMEN SHOP'</initValue>
+      <initValue>'MERCHANT MOAJA'</initValue>
       <name>merchantName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -227,7 +227,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'UEvwV+7vVmLYlrdu3mhTRla56AsGP1XxJWMXZpnoh4s='</initValue>
-      <name>secretKey</name>
+      <name>secretKey_MOAJA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

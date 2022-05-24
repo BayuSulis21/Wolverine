@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-12. BE - posting pembayaran tagihan success</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bbc31713-432d-4622-8a9d-f22ced3393fa</testCaseGuid>
-</TestCaseEntity>

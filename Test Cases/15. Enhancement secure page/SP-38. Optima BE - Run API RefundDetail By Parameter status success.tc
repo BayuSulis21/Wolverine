@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-38. Optima BE - Run API RefundDetail By Parameter status success</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>edf4fa92-18fc-4335-b45a-5808928df053</testCaseGuid>
-</TestCaseEntity>

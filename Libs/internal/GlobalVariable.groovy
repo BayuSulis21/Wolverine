@@ -20,7 +20,7 @@ public class GlobalVariable {
     public static Object baseUrl
      
     /**
-     * <p>Profile default : 087875878815,087800190001
+     * <p>Profile default : 0895635114073,087712345678
 Profile backup : 087875878815,087800190001</p>
      */
     public static Object hp
@@ -235,7 +235,7 @@ Profile backup : Nominal bayar test QRIS</p>
     /**
      * <p></p>
      */
-    public static Object secretKey
+    public static Object secretKey_MOAJA
      
     /**
      * <p></p>
@@ -266,6 +266,11 @@ Profile backup : Nominal bayar test QRIS</p>
      * <p></p>
      */
     public static Object url_Optima
+     
+    /**
+     * <p></p>
+     */
+    public static Object secretKey
      
 
     static {
@@ -318,13 +323,14 @@ Profile backup : Nominal bayar test QRIS</p>
             merchantURL = selectedVariables['merchantURL']
             successURL = selectedVariables['successURL']
             failedURL = selectedVariables['failedURL']
-            secretKey = selectedVariables['secretKey']
+            secretKey_MOAJA = selectedVariables['secretKey_MOAJA']
             publicKeyString = selectedVariables['publicKeyString']
             hp_terblokir = selectedVariables['hp_terblokir']
             DATA_GITHUB = selectedVariables['DATA_GITHUB']
             user_github = selectedVariables['user_github']
             pass_github = selectedVariables['pass_github']
             url_Optima = selectedVariables['url_Optima']
+            secretKey = selectedVariables['secretKey']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

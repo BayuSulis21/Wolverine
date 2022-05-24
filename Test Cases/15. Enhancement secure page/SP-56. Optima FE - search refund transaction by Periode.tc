@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-56. Optima FE - search refund transaction by Periode</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>feb3c0c6-8e5f-42b8-8b9e-80341898f3e9</testCaseGuid>
-</TestCaseEntity>

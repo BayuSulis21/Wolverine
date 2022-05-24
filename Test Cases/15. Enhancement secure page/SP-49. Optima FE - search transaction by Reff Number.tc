@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-49. Optima FE - search transaction by Reff Number</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>83ba48f2-8fc9-45f8-b3a4-95de1494faa8</testCaseGuid>
-</TestCaseEntity>

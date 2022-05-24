@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-33. Optima BE - Run API TransactionDetail by parameter PhoneNo</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fead152a-8037-4cea-982d-8089a50ae8e8</testCaseGuid>
-</TestCaseEntity>

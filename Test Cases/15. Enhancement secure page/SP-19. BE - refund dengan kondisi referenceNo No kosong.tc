@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-19. BE - refund dengan kondisi referenceNo No kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf30dd21-7520-496e-ba50-fc6edc4766b8</testCaseGuid>
+</TestCaseEntity>

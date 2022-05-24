@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-08. BE - refund lebih besar dari tagihan</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f34b2334-9b10-4a55-8659-1cac115f61d6</testCaseGuid>
-</TestCaseEntity>

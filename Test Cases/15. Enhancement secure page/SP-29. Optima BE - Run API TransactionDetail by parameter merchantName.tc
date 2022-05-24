@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-29. Optima BE - Run API TransactionDetail by parameter merchantName</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>0fd0fcbb-1935-44ae-b7b7-cca12282b373</testCaseGuid>
-</TestCaseEntity>

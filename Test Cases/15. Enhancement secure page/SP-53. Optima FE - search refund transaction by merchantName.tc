@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-53. Optima FE - search refund transaction by merchantName</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>71440d9e-936f-48c7-8dfd-44948a2483d7</testCaseGuid>
-</TestCaseEntity>

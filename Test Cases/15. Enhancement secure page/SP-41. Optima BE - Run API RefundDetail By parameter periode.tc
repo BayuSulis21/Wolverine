@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-41. Optima BE - Run API RefundDetail By parameter periode</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>70d24671-d48d-4e1a-bdcd-954c99a4c85d</testCaseGuid>
-</TestCaseEntity>

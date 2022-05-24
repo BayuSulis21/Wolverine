@@ -47,19 +47,11 @@
       <value>sAlq+jf11KS/eYpgZhEWookxpWpyIpbZWw0n32elqeQ=</value>
       <webElementGuid>a7725fc3-5f93-49e8-9bed-95fe75cd67bd</webElementGuid>
    </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
-      <type>Main</type>
-      <value>Basic T1RUT0NBU0g=</value>
-      <webElementGuid>c417ff8b-bfd7-46b8-8383-945120367d29</webElementGuid>
-   </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.url_secure_page}/securepage/v1/rest/h2h/payment/inquirySecurePage</restUrl>
+   <restUrl>${GlobalVariable.url_secure_page}/securepage/v2/rest/h2h/payment/inquirySecurePage</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

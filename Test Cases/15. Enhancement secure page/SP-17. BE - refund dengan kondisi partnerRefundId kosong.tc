@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-17. BE - refund dengan kondisi partnerRefundId kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a1d3e20-64dd-45bc-aeb7-c2e934552403</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-18. BE - refund dengan kondisi phone No kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a1c099f-f015-46b0-8d34-db59e885623e</testCaseGuid>
+</TestCaseEntity>

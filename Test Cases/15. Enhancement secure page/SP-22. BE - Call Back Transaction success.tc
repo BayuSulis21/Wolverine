@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-22. BE - Call Back Transaction success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf3efd94-acf8-4879-881f-a40dbf8c23ff</testCaseGuid>
+</TestCaseEntity>

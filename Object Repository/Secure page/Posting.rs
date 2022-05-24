@@ -67,7 +67,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.url_secure_page}/securepage/v1/rest/h2h/payment/postingSecurePage</restUrl>
+   <restUrl>${GlobalVariable.url_secure_page}/securepage/v2/rest/h2h/payment/postingSecurePage</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

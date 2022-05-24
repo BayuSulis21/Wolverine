@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-58. Optima FE - search refund transaction by Reff Number</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a8223905-5823-427d-a2ee-dc5cf59e9c88</testCaseGuid>
-</TestCaseEntity>

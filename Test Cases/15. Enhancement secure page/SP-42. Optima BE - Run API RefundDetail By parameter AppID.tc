@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-42. Optima BE - Run API RefundDetail By parameter AppID</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>49a092c0-9627-4151-8e66-38956ff8406d</testCaseGuid>
-</TestCaseEntity>

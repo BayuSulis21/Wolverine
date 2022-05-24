@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SP-32. Optima BE - Run API TransactionDetail by parameter TransactionID</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c4389430-f8d9-4315-8762-fffa6cd47ce3</testCaseGuid>
-</TestCaseEntity>
