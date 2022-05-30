@@ -82,7 +82,7 @@ import org.apache.commons.codec.binary.Base64;
 	ArrayList HTTPHeader = new ArrayList()	
 	HTTPHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS,'application/json'))
 	HTTPHeader.add(new TestObjectProperty('Timestamp', ConditionType.EQUALS,Timestamp))
-	HTTPHeader.add(new TestObjectProperty('AppsID', ConditionType.EQUALS,AppsID))
+	HTTPHeader.add(new TestObjectProperty('Apps-ID', ConditionType.EQUALS,AppsID))
 	HTTPHeader.add(new TestObjectProperty('Signature', ConditionType.EQUALS,Signature_refund))
 	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,authHeader))
 	Refund.setHttpHeaderProperties(HTTPHeader)

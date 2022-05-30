@@ -36,7 +36,7 @@
       <matchCondition>equals</matchCondition>
       <name>Apps-ID</name>
       <type>Main</type>
-      <value>OTTOCASH</value>
+      <value>MOAJA</value>
       <webElementGuid>09d2957e-a677-4562-ba6b-c1047a147264</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
@@ -59,7 +59,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.url_secure_page}/securepage/v1/rest/h2h/payment/refundSecurePage</restUrl>
+   <restUrl>${GlobalVariable.url_secure_page}/securepage/v2/rest/h2h/payment/refundSecurePage</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

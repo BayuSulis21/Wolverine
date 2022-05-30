@@ -186,6 +186,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'OTTOCASH'</initValue>
+      <name>AppsID_Refund</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>''</initValue>
       <name>Signature</name>
    </GlobalVariableEntity>

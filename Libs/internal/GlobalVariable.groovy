@@ -195,6 +195,11 @@ Profile backup : Nominal bayar test QRIS</p>
     /**
      * <p></p>
      */
+    public static Object AppsID_Refund
+     
+    /**
+     * <p></p>
+     */
     public static Object Signature
      
     /**
@@ -315,6 +320,7 @@ Profile backup : Nominal bayar test QRIS</p>
             amount_securepage = selectedVariables['amount_securepage']
             Timestamp = selectedVariables['Timestamp']
             AppsID = selectedVariables['AppsID']
+            AppsID_Refund = selectedVariables['AppsID_Refund']
             Signature = selectedVariables['Signature']
             requestMethod = selectedVariables['requestMethod']
             authHeader = selectedVariables['authHeader']

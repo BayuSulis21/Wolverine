@@ -28,6 +28,9 @@ for (int baris = 1; baris <= 10; baris++) {
 	WebUI.takeScreenshot()
 	WebUI.delay(2)
 	
+	WebUI.uploadFile(findTestObject('Object Repository/CIMB cashout/select-beneficiary'), 'D:\\')
+	
+	
 	WebUI.setText(findTestObject('Object Repository/CIMB cashout/input_amount'), '1000'+baris)
 	WebUI.takeScreenshot()
 	WebUI.delay(2)

@@ -35,11 +35,17 @@ import java.security.Signature
 
 import org.apache.commons.codec.binary.Base64;
 
-String jsonbody_posting = '{"pin": "'+GlobalVariable.pin+'","referenceNumber": "C41800000964"}'
-String jsonbody_posting_replace = '{pin:'+GlobalVariable.pin+',referenceNumber:C41800000964}'
-String jsonbody_uppercase= jsonbody_posting_replace.toUpperCase()
-String jsonbody_posting_sign = jsonbody_uppercase+":1508792287967"
-WebUI.comment(jsonbody_posting_sign)
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://imgur.com/upload?beta')
+def filePath = RunConfiguration.getProjectDir() + '/Katalon-Devices.JPG'
+def filePath1 = RunConfiguration.getProjectDir() + '/Katalon-Devices 1.JPG'
+def filePath2 = RunConfiguration.getProjectDir() + '/Katalon-Devices 2.JPG'
+def concatenatedFilePath = (((filePath + '\n') + filePath1) + '\n') + filePath2
+WebUI.uploadFileWithDragAndDrop(concatenatedFilePath)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Imgur/Page_Imgur The magic of the Internet/span_3 images saved'),
+    10)
+WebUI.delay(5)
+WebUI.closeBrowser()
 
 
 

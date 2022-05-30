@@ -102,6 +102,7 @@ import org.apache.commons.codec.binary.Base64;
 	String referenceNumber = parsedJson.get("referenceNumber")
 	String link = parsedJson.get("securePage")
 	System.out.println(referenceNumber)
+	GlobalVariable.referenceNumber=referenceNumber
 	System.out.println(link)
 	WebUI.comment(referenceNumber)
 	WebUI.comment(link)

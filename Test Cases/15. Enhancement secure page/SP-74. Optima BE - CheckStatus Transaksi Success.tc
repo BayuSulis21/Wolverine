@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-74. Optima BE - CheckStatus Transaksi Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>970b56fe-f8df-405d-976a-5f31abadbd69</testCaseGuid>
+</TestCaseEntity>

@@ -33,7 +33,7 @@ import java.security.Signature
 
 import org.apache.commons.codec.binary.Base64;
 
-	RequestObject Refund=findTestObject('Object Repository/Secure page/refund')
+	RequestObject CheckStatus=findTestObject('Object Repository/Secure page/CheckStatus')
 	
 	//set secretkey
 	String secretKey=GlobalVariable.secretKey_MOAJA
@@ -41,21 +41,19 @@ import org.apache.commons.codec.binary.Base64;
 	//set httpheader
 	String Timestamp = GlobalVariable.Timestamp
 	String AppsID = GlobalVariable.AppsID
-	String Signature_refund = ""
+	String Signature= ""
 	String authHeader = GlobalVariable.authHeader
 	
 	//set httpbody
-	String phoneNumber='0895635114073'
-	String referenceNumber='C42300001628'
-	String partnerRefundId='4015'
-	String amount=1200
+	String referenceNumber='C43000001621'
+	System.out.println(referenceNumber)
 	
-	String jsonbody_refund = '{"phoneNumber": "'+phoneNumber+'","referenceNumber": "'+referenceNumber+'","partnerRefundId": "'+partnerRefundId+'","amount": '+amount+'}'
-	WebUI.comment(jsonbody_refund)
-	String jsonbody_replace_refund = '{phoneNumber:'+phoneNumber+',referenceNumber:'+referenceNumber+',partnerRefundId:'+partnerRefundId+',amount:'+amount+'}'
-	String jsonbody_uppercase_refund= jsonbody_replace_refund.toUpperCase()
-	String TextHash_refund=jsonbody_uppercase_refund+":"+Timestamp
-	System.out.println(TextHash_refund)
+	String jsonbody = '{"referenceNumber": "'+referenceNumber+'"}'
+	WebUI.comment(jsonbody)
+	String jsonbody_replace = '{referenceNumber:'+referenceNumber+'}'
+	String jsonbody_uppercase= jsonbody_replace.toUpperCase()
+	String TextHash=jsonbody_uppercase+":"+Timestamp
+	System.out.println(TextHash)
 	
 	//function Signature Data using HMAC-SHA256 method with secret key
 	def hmac_sha256(String secretKey, String data) {
@@ -70,22 +68,22 @@ import org.apache.commons.codec.binary.Base64;
 		 }
 	   }
 	   
-	def hash_refund = hmac_sha256(secretKey, TextHash_refund)
-	Signature_refund = Base64.encodeBase64String(hash_refund);
-	System.out.println(Signature_refund)
-	WebUI.comment(Signature_refund.toString())
+	def hash = hmac_sha256(secretKey, TextHash)
+	Signature = Base64.encodeBase64String(hash);
+	System.out.println(Signature)
+	WebUI.comment(Signature.toString())
 	   
-	Refund.setBodyContent(new HttpTextBodyContent(jsonbody_refund, "UTF-8", "application/json"))
+	CheckStatus.setBodyContent(new HttpTextBodyContent(jsonbody, "UTF-8", "application/json"))
 	//set httpheader
 	ArrayList HTTPHeader = new ArrayList()	
 	HTTPHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS,'application/json'))
 	HTTPHeader.add(new TestObjectProperty('Timestamp', ConditionType.EQUALS,Timestamp))
 	HTTPHeader.add(new TestObjectProperty('Apps-ID', ConditionType.EQUALS,AppsID))
-	HTTPHeader.add(new TestObjectProperty('Signature', ConditionType.EQUALS,Signature_refund))
+	HTTPHeader.add(new TestObjectProperty('Signature', ConditionType.EQUALS,Signature))
 	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,authHeader))
-	Refund.setHttpHeaderProperties(HTTPHeader)
+	CheckStatus.setHttpHeaderProperties(HTTPHeader)
 	
-	def responseObj = WS.sendRequest(Refund)
+	def responseObj = WS.sendRequest(CheckStatus)
 	WS.verifyResponseStatusCode(responseObj, 200)
 	JsonSlurper slurper = new JsonSlurper()
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())

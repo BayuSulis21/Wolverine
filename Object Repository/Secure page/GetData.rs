@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CheckStatus</name>
+   <name>GetData</name>
    <tag></tag>
-   <elementGuidId>40ff416a-4397-41f8-ae48-9d1791920e85</elementGuidId>
+   <elementGuidId>0aad6606-5686-4fef-abda-38d7b137c92e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -59,7 +59,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.url_secure_page}/securepage/v2/rest/h2h/payment/checkStatusSecurePage</restUrl>
+   <restUrl>${GlobalVariable.url_secure_page}/securepage/v1/rest/h2h/payment/getDataSecurePage</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>drag drop image</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>45d0cb31-2c1a-462b-9f5f-c490a1bf5103</testCaseGuid>

@@ -12,437 +12,514 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f78a2c92-2918-4ef4-ab91-1ccf52b562a2</testSuiteGuid>
    <testCaseLink>
-      <guid>41da3c55-a97f-4f38-a4ba-5523a6b22f3e</guid>
+      <guid>1de47ffb-688c-4ca6-ba1e-95fbf452dc28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-01. BE - Melakukan inquiry tagihan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ef2229df-b170-48ea-bbfc-4680cc86f4ab</guid>
+      <guid>02a8d750-994a-4f8c-9839-dfed3b53c79e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-02. BE - inquiry tagihan lebih besar dari saldo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bbf0e8f9-cb15-466f-87fd-e479a7084e7f</guid>
+      <guid>02dab8de-54f1-401f-81d9-fe733a46dc60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-03. BE - inquiry tagihan dengan kondisi invalid signature</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>172ee332-ab66-41ce-901b-2e05894dbc70</guid>
+      <guid>563920b4-4d60-4b68-bccc-705c797bcddf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-04. BE - success pembayaran tagihan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cfa979bc-bb0d-4baf-a2e1-47a510d27e5a</guid>
+      <guid>f715b0f8-ea40-4a29-9d66-9710758d8f2d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-05. BE - posting pembayaran tagihan success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b3c190c1-2bba-46bf-b09f-404a2263b7ee</guid>
+      <guid>890d5b2f-e096-4b3b-8170-8afeddd685d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-06. BE - posting pembayaran tagihan dengan kondisi PIN Invalid</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c2200290-377d-4769-aeaf-9c5f1f4e29fe</guid>
+      <guid>d803d98b-b36f-45ee-8b48-db483e63323f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-08. BE - refund full tagihan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5d42769-6449-47fd-ad70-05a4b8dac596</guid>
+      <guid>3ded5ba4-b4cc-436d-898f-d641fa6b1cd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-09. BE - refund lebih besar dari tagihan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f0463346-34cd-46e5-abcb-1833020fca99</guid>
+      <guid>38d4ddac-cf67-44cb-a59d-07ce1204a9d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-10. BE - refund sebagian tagihan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>67dafab9-777a-45b0-804a-db425a64e2ec</guid>
+      <guid>2f0d04ca-9d96-40fc-af1d-061f47675cd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-11. BE - refund 2 kali dengan kondisi summary refund sama dengan tagihan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5a5d8bd3-c12a-411d-bb7a-cd57c08f7623</guid>
+      <guid>1b360a76-3f2c-4ac6-915d-5dfac7b7a1f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-12. BE - refund 2 kali dengan kondisi summary refund lebih besar dari tagihan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ce26a664-818a-4d83-b276-cac3cd5c270d</guid>
+      <guid>d67eff22-70d4-4356-80da-153c5c54d9a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-13. BE - refund dengan kondisi melewati periode transaksi H30</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7d50dea4-4391-47d8-82d1-f37c4f45db5c</guid>
+      <guid>b93daa81-83f7-4c11-ab25-298fd181d506</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-14. BE - refund dengan kondisi transaksi tagihan belum dibayar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>625af802-42eb-4091-b9b3-b9f6a23c6848</guid>
+      <guid>9567bcae-958c-4f42-a160-da55814beae9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-15. BE - refund dengan kondisi Phone No Not Found</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>47064678-94d6-4ba7-9c61-66b7116ee082</guid>
+      <guid>a3490a8a-cdec-4064-9bbb-78e552c7392b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-16. BE - refund dengan kondisi PreferenceNumber Not Found</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fdf7e5f7-2004-4653-b2b2-6f3551c1122f</guid>
+      <guid>7f454cad-20f7-4d7c-8079-e3cf922145ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-17. BE - refund dengan kondisi partnerRefundId kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>53902aa0-ec83-424d-88f5-6ef1fa225259</guid>
+      <guid>973ab8f4-0502-4fda-b1da-d30bee810663</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-17.1. BE - refund dengan kondisi partnerRefundId sudah terdaftar</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aead7d03-6d04-43a3-a818-14c9aa033a61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-18. BE - refund dengan kondisi phone No kosong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b0479270-4154-488d-9036-c27ae68e1cc2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-19. BE - refund dengan kondisi referenceNo No kosong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe0395e7-6229-4ab0-8485-f610ff84caca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-20. BE - refund dengan kondisi PhoneNo Dan referenceNo No kosong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>236a474e-bd67-40cb-b8e0-b96144615915</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-21. BE - pembayaran tagihan dengan kondisi No Rekening terblokir</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>89f6ecd8-32e5-4929-9232-e55c17123398</guid>
+      <guid>3fae3442-e68c-4680-b170-45139b215931</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-22. BE - Call Back Transaction success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7959cab2-769a-4bbd-8f4e-1f375b83b14f</guid>
+      <guid>1412ea7a-ad3a-4171-b7c5-5378aa53cd0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-23. BE - Call Back Transaction not success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8be0584a-54c0-487d-8c58-ce0993819807</guid>
+      <guid>f10f10a9-e4f7-4945-82f9-eaf8fe2be60a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-24. BE - Generate web secure page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>878a6e2b-8aff-4114-97e5-075d7b53ea9b</guid>
+      <guid>471963b2-f99a-4e31-8f90-338c540af7e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-25. UI Inquiry</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b63a84cb-3c9e-4106-8708-c10c6237c51b</guid>
+      <guid>e7a65d79-3cbd-43f9-8877-6a42e0ba20fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-26. UI Halaman PIN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>736daed9-1e92-4166-9381-d240a214b91e</guid>
+      <guid>3ea826b5-2acb-487c-a119-a5ed7cc247bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-27. FE - Valid PIN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d6d0a1c4-129c-48f0-a018-69c4178b8140</guid>
+      <guid>f0d8c899-f782-47bd-9fb1-9c74d4e2aa0f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-28. FE - Invalid PIN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>81dceda9-0170-45fa-a8fd-39662d6f11ea</guid>
+      <guid>49cff396-40f4-4bc5-ac81-6f69e25beff6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-29. FE - Saldo tidak cukup</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>33d19a85-81b5-4887-8222-6a4dfe35b33f</guid>
+      <guid>a6eee6d7-e60b-44c6-93b9-b1b02dc611aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-33. Optima FE - Menu Secure page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0c0abd58-45e4-432c-b3f2-602853fd97a1</guid>
+      <guid>cbe15108-14e1-4ee2-bb62-206f147e00da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-34. Optima FE - Report Secure page Transaction</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3711724f-0777-4f87-b6a3-42c01ad85b26</guid>
+      <guid>12e77f95-0812-4914-8286-cd26de16acf6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-35. Optima FE - Report Secure page refund Transaction</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>056e7ba1-1bd5-4adb-ac9e-b28e6fc407bd</guid>
+      <guid>057ca60f-d2cc-4a1c-8e5c-8ea49025d166</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-36. Optima BE - Run API TransactionApiID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8b040019-da15-48a9-aa02-54bd500e7ce9</guid>
+      <guid>70d5ce73-4ff2-4d18-9809-ed426e3aec58</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-37. Optima BE - Run API TransactionDetail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cdb3ef7c-7351-4594-a385-bae5f070c9bb</guid>
+      <guid>c24df951-2845-40ea-83ae-b20099bd8443</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-38. Optima BE - Run API TransactionDetail by parameter merchantName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>005185f2-ef01-4116-9e83-1477991c67b4</guid>
+      <guid>08dca79a-5c67-40e5-9c06-f2e628c99a0d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-39. Optima BE - Run API TransactionDetail by parameter merchantID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5728beba-89f3-4178-be9e-51d8877aff8a</guid>
+      <guid>4e23cc56-5865-4fa7-bf81-f9ebc8797dc3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-40. Optima BE - Run API TransactionDetail by parameter AppID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc782135-181f-4e69-b8d3-263d0bc77a0d</guid>
+      <guid>bc6587df-51f8-418b-8423-f147563496ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-41. Optima BE - Run API TransactionDetail by parameter TransactionID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d56ff686-766d-45c8-a5fa-f9f91b76d3aa</guid>
+      <guid>a626917c-f5ae-4409-a656-3c3ecbcccdff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-42. Optima BE - Run API TransactionDetail by parameter PhoneNo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7196d4f2-2aae-483a-ad76-f006da7432bf</guid>
+      <guid>927a7aa5-72a9-425a-a045-34bf1b28b8f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-43. Optima BE - Run API TransactionDetail by parameter referenceNumber</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f3aa989c-dfb5-49a5-aaae-3fb5b5347453</guid>
+      <guid>8409a0f3-d89d-40d0-ac12-fe61d450ef6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-44. Optima BE - Run API RefundAppsID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5ba10489-1f4b-4bfd-a025-c5ae2bd32594</guid>
+      <guid>42d38583-7698-416e-83b8-23c9d3829b0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-45. Optima BE - Run API RefundDetail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7e2d3b74-d3f3-42d8-89fe-f35faeca983b</guid>
+      <guid>3ec35f07-3b2e-48d1-b191-d98bfd694208</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-46. Optima BE - Run API RefundDetail By parameter MerchantName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4b0705fa-b522-4e1f-80d0-fafd36df864e</guid>
+      <guid>ace7bf1a-881a-480a-ab58-f816f496d833</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-47. Optima BE - Run API RefundDetail By Parameter status success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1101a7b1-74d2-4a74-8c35-4c52e243856d</guid>
+      <guid>d07a0641-626b-4a44-a282-c2afee482224</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-48. Optima BE - Run API RefundDetail By Parameter status tidak success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>53d20f5f-c873-40ed-92ba-7e5eddae6c36</guid>
+      <guid>c98e0f0d-6122-4648-9725-5f92f2d128ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-49. Optima BE - Run API RefundDetail By parameter partner RefundID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2745fde1-884a-42a8-881b-a6d86677d975</guid>
+      <guid>0f6f2bdc-0013-4d92-875d-8526afdaae59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-50. Optima BE - Run API RefundDetail By parameter periode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>99fb638f-3aa7-49cc-a355-8a0638a2826f</guid>
+      <guid>df2cec78-b02b-4b39-91b2-e98e9e526522</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-51. Optima BE - Run API RefundDetail By parameter AppID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c528c7d5-c754-426b-9f0e-add5b06396bd</guid>
+      <guid>b797dcd8-fadb-416f-9969-ef5c4f60cfa8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-52. Optima BE - Run API RefundDetail By parameter refferenceNumber</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7688f079-06b5-49bd-8533-1627de179052</guid>
+      <guid>b372031b-5508-4aca-a37b-3245a6469aaa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-53. Optima FE - search transaction by AppID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6b962f9b-3328-4614-918b-725e031e1ef2</guid>
+      <guid>4f48b5a4-6187-49a4-970d-bd94cbbac439</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-54. Optima FE - search transaction by merchantName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5808324f-08ad-4ba5-aaad-df937bd113e8</guid>
+      <guid>acc33183-fc07-43fb-b077-805d6f4629bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-55. Optima FE - search transaction by TransactionID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc397311-8de7-4db2-abe3-a1ffa9dcffc4</guid>
+      <guid>23f6a99a-b637-4005-810e-b8e0216b52b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-56. Optima FE - search transaction by merchantID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7de7a7c-9990-4d1c-85cc-34bff541725e</guid>
+      <guid>e195c608-60dd-4d73-bcf6-6d90b531bb57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-57. Optima FE - search transaction by PhoneNo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7735aa85-0504-4fe1-937b-01873ad772e2</guid>
+      <guid>6d62d328-ccf9-4c64-9e7a-143bf1d6e6a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-58. Optima FE - search transaction by Reff Number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>31ae44be-f36b-409e-ac28-9ad6cebdc666</guid>
+      <guid>b0e357ef-2048-4c92-a822-a96fc0247e0f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-59. Optima FE - view kolom data secure page transaction sesuai PRD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8a26c855-9e1b-48b4-b894-856c3291c61a</guid>
+      <guid>00a138b1-2d5e-473b-b485-fcaee1eed793</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-60. Optima FE - melakukan Export Transaction CSV</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a70845c3-a5fb-4008-9dbb-fd53e9b51132</guid>
+      <guid>67c001af-97a6-41e6-8b88-af4e7774590f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-61. Optima FE - melakukan Export Transaction Excel</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>82c7ffd1-3e1a-4e1b-a435-7998170eed93</guid>
+      <guid>b18720d1-9fb8-46d2-9749-2d00460589fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-62. Optima FE - search refund transaction by merchantName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e0efd2a1-0f5a-4bbc-839c-89ab191ec50a</guid>
+      <guid>cf6a6abf-5b0d-441e-9bca-44de6c07b29d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-63. Optima FE - search refund transaction by TransactionStatus</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2e6843f7-5f60-4893-8204-4b1bc6937ec7</guid>
+      <guid>4baf056a-f3ee-44a3-9ece-78b009b4d044</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-64. Optima FE - search refund transaction by PartnerRefundID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7e5a188-7a05-47f2-aaa0-d55b17777da0</guid>
+      <guid>931135bd-a308-4911-a58d-b42ffc05795b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-65. Optima FE - search refund transaction by Periode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5975fee1-dfa1-41bb-9efb-936421d11928</guid>
+      <guid>28c5d95d-00b7-4b66-9190-b10faae6e10a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-66. Optima FE - search refund transaction by AppsID</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c7a6eeba-2bbb-438d-b004-f5ba38698d17</guid>
+      <guid>06b74b8c-8759-4471-8b43-d4a81e68de94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-67. Optima FE - search refund transaction by Reff Number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec45c346-1eb7-4b42-9138-0a2bb1731603</guid>
+      <guid>e85f6632-b8b7-4940-a797-2c796d04d6ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-68. Optima FE - melakukan Export Secure page Refund Transaction CSV</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>377233a1-5d17-4e26-b116-112a6a19e547</guid>
+      <guid>70095e5b-f877-4e50-8ebf-a52723f0cb42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/15. Enhancement secure page/SP-69. Optima FE - melakukan Export Secure page Refund Transaction EXCEL</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0233744b-8317-4d69-b9cf-f7eb0f65cd18</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-70. Optima BE - GetData dengan kondisi reffNum Session Expired</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>15d89b1f-8f26-4cd5-9357-ebcaba205c97</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-71. Optima BE - GetData dengan kondisi reffNumNot Found</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4471d32-27b0-4fd0-bcbc-4880a80330f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-72. Optima BE - GetData Success</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>99a23dde-ca80-4a08-b812-54e2c6e1c3ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-73. Optima BE - CheckStatus Transaksi Pending</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5e54f75d-b17c-42be-9bf8-0423440a7e8f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-74. Optima BE - CheckStatus Transaksi Success</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dea8e6d1-6ae5-44df-8d69-1d0d121ff4ce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-75. Optima BE - CheckStatus Transaksi Refund Success</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>058a519c-7dc2-4efb-b469-b5422f412c55</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/15. Enhancement secure page/SP-76. Optima BE - CheckStatus Transaksi ReffNum Not Found</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

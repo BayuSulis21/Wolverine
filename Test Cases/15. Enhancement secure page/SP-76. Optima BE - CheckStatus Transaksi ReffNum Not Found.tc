@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-76. Optima BE - CheckStatus Transaksi ReffNum Not Found</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4823703-f682-4755-94a6-1e2064eeaa76</testCaseGuid>
+</TestCaseEntity>

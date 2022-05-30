@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-71. Optima BE - GetData dengan kondisi reffNumNot Found</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcf1de37-95c1-4d7c-855c-5cdf248345d7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP-70. Optima BE - GetData dengan kondisi reffNum Session Expired</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>854a8e24-cc51-433a-ada6-72de74ec6ade</testCaseGuid>
+</TestCaseEntity>
