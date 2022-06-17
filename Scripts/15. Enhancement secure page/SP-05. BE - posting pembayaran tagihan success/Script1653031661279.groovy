@@ -119,15 +119,6 @@ import org.apache.commons.codec.binary.Base64;
 	String jsonbody_posting_sign = jsonbody_uppercase_posting+":"+Timestamp
 	WebUI.comment(jsonbody_posting_sign)
 	
-	/*def cipher = javax.crypto.Cipher.getInstance('RSA')
-	def factory = java.security.KeyFactory.getInstance("RSA")
-	def publicKeyString=GlobalVariable.publicKeyString
-	def encodedKeySpec = new java.security.spec.X509EncodedKeySpec(publicKeyString.decodeBase64())
-	def publicKey = factory.generatePublic(encodedKeySpec)
-	cipher.init(javax.crypto.Cipher.ENCRYPT_MODE, publicKey)
-	cipherText = cipher.doFinal(jsonbody_posting.getBytes())
-	String jsonBody_final=cipherText.encodeBase64()
-	WebUI.comment('Encrypted: ' + jsonBody_final)*/
 	
 	def jsEncryptRSA(String data) {
 		try {

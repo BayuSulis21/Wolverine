@@ -15,7 +15,7 @@
       <name>baseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>0895635114073,087712345678</description>
+      <description>0895635114073</description>
       <initValue>'0895635114073'</initValue>
       <name>hp</name>
    </GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'User OCSDK'</initValue>
+      <initValue>'BAYU TESTING'</initValue>
       <name>nama</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>191164</description>
-      <initValue>'191164'</initValue>
+      <initValue>'147147'</initValue>
       <name>pin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -241,6 +241,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'86ef1018-ca32-45e8-af94-716ceccf4b04'</initValue>
+      <name>Api_Key</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'082273652444'</initValue>
       <name>hp_terblokir</name>
    </GlobalVariableEntity>
@@ -263,5 +268,35 @@
       <description></description>
       <initValue>'https://wolverine-dev.ottodigital.id/optima-web/auth/login'</initValue>
       <name>url_Optima</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'------------------------------------------------------------------------------------------------------------------------------------'</initValue>
+      <name>RETRIBUSI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://117.53.45.7:53000'</initValue>
+      <name>url_retribusi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>client_id_retribusi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ZbVOGCe3eFY3EDLQhWS0inUQMCmzGW9eyE6f9K2H'</initValue>
+      <name>client_secret_retribusi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'retribusi'</initValue>
+      <name>scope_retribusi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>access_token</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

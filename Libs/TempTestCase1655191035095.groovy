@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/_x/hzlzwd8j20gfzg0809vw8zhh0000gq/T/Katalon/Test Cases/15. Enhancement secure page/SP-76. Optima BE - CheckStatus Transaksi ReffNum Not Found/20220530_140634/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/_x/hzlzwd8j20gfzg0809vw8zhh0000gq/T/Katalon/20220614_141715/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/15. Enhancement secure page/SP-76. Optima BE - CheckStatus Transaksi ReffNum Not Found', new TestCaseBinding('Test Cases/15. Enhancement secure page/SP-76. Optima BE - CheckStatus Transaksi ReffNum Not Found',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

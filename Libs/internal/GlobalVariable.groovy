@@ -20,7 +20,7 @@ public class GlobalVariable {
     public static Object baseUrl
      
     /**
-     * <p>Profile default : 0895635114073,087712345678
+     * <p>Profile default : 0895635114073
 Profile backup : 087875878815,087800190001</p>
      */
     public static Object hp
@@ -250,6 +250,11 @@ Profile backup : Nominal bayar test QRIS</p>
     /**
      * <p></p>
      */
+    public static Object Api_Key
+     
+    /**
+     * <p></p>
+     */
     public static Object hp_terblokir
      
     /**
@@ -271,6 +276,36 @@ Profile backup : Nominal bayar test QRIS</p>
      * <p></p>
      */
     public static Object url_Optima
+     
+    /**
+     * <p></p>
+     */
+    public static Object RETRIBUSI
+     
+    /**
+     * <p></p>
+     */
+    public static Object url_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object client_id_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object client_secret_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object scope_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object access_token
      
     /**
      * <p></p>
@@ -331,11 +366,18 @@ Profile backup : Nominal bayar test QRIS</p>
             failedURL = selectedVariables['failedURL']
             secretKey_MOAJA = selectedVariables['secretKey_MOAJA']
             publicKeyString = selectedVariables['publicKeyString']
+            Api_Key = selectedVariables['Api_Key']
             hp_terblokir = selectedVariables['hp_terblokir']
             DATA_GITHUB = selectedVariables['DATA_GITHUB']
             user_github = selectedVariables['user_github']
             pass_github = selectedVariables['pass_github']
             url_Optima = selectedVariables['url_Optima']
+            RETRIBUSI = selectedVariables['RETRIBUSI']
+            url_retribusi = selectedVariables['url_retribusi']
+            client_id_retribusi = selectedVariables['client_id_retribusi']
+            client_secret_retribusi = selectedVariables['client_secret_retribusi']
+            scope_retribusi = selectedVariables['scope_retribusi']
+            access_token = selectedVariables['access_token']
             secretKey = selectedVariables['secretKey']
             
         } catch (Exception e) {

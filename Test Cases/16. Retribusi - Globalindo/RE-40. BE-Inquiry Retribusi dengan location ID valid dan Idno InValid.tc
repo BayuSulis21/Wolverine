@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-40. BE-Inquiry Retribusi dengan location ID valid dan Idno InValid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11b2342c-e0ed-4ba5-9d6d-a0e1c3ed7683</testCaseGuid>
+</TestCaseEntity>

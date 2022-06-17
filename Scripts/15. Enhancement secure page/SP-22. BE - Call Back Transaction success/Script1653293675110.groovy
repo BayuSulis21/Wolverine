@@ -29,33 +29,66 @@ import groovy.json.JsonSlurper
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import javax.xml.bind.annotation.XmlElementDecl.GLOBAL
-
 import java.security.InvalidKeyException;
 import java.security.Signature
 
 import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.binary.Hex;
  
 	RequestObject Inquiry=findTestObject('Object Repository/Secure page/callback')
 	
+	//set httpheader
+	String Timestamp = GlobalVariable.Timestamp
+	String AppsID = GlobalVariable.AppsID
+	String Signature = ""
+	String requestMethod = GlobalVariable.requestMethod
+	String authHeader = GlobalVariable.authHeader
+	
 	//set httpbody
-	String merchantId='MOAJAH000011111'
-	String merchantName='MERCHANT MOAJA'
-	String phoneNumber='0895635114073'
-	String amount=30000
-	String trxID="AA1610000440047"
-	String merchantURL=GlobalVariable.merchantURL
-	String successURL=GlobalVariable.successURL
+	String trxRef="MOBAYU100003500077"
+	String issuer="OTTOCASH"
+	String issuerRefNo="C50600000012"
+	String responseCode="00"
+	String responseDescription="success"
 	
-	String jsonbody = '{"merchantId": "'+merchantId+'","merchantName": "'+merchantName+'","phoneNumber": "'+phoneNumber+'","trxId": "'+trxID+'","amount": '+amount+',"merchantURL": "'+merchantURL+'","successURL": "'+successURL+'"}'
+	String jsonbody = '{"issuer": "'+issuer+'","issuerRefNo": "'+issuerRefNo+'","responseCode": "'+responseCode+'","responseDescription": "'+responseDescription+'","trxRef": "'+trxRef+'"}'
 	WebUI.comment(jsonbody)
+	String jsonbody_replace = '{issuer:'+issuer+',issuerRefNo:'+issuerRefNo+',responseCode:'+responseCode+',responseDescription:'+responseDescription+',trxRef:'+trxRef+'}'
+	String jsonbody_lowercase= jsonbody_replace.toLowerCase()
+	String TextHash=jsonbody_lowercase+"&"+Timestamp+"&"+GlobalVariable.Api_Key
+	System.out.println(TextHash)
 	
+	//function Signature Data using HMAC-SHA256 method with secret key
+	def hmac_sha512(String ApiKey, String data) {
+		try {
+		   Mac mac = Mac.getInstance("HmacSHA512")
+		   SecretKeySpec ApiKeySpec = new SecretKeySpec(ApiKey.getBytes(), "HmacSHA512")
+		   mac.init(ApiKeySpec)
+		   byte[] digest = mac.doFinal(data.getBytes())
+		   return digest
+		  } catch (InvalidKeyException e) {
+		   throw new RuntimeException("Invalid key exception while converting to HMac HmacSHA512")
+		 }
+	   }
+	   
+	def hash = hmac_sha512(GlobalVariable.Api_Key, TextHash)
+	Signature = Hex.encodeHexString(hash);
+	System.out.println(Signature)
+	WebUI.comment(Signature.toString())
 	   
 	Inquiry.setBodyContent(new HttpTextBodyContent(jsonbody, "UTF-8", "application/json"))
+	//set httpheader
+	ArrayList HTTPHeader = new ArrayList()	
+	HTTPHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS,'application/json'))
+	HTTPHeader.add(new TestObjectProperty('Timestamp', ConditionType.EQUALS,Timestamp))
+	HTTPHeader.add(new TestObjectProperty('Apps-ID', ConditionType.EQUALS,AppsID))
+	HTTPHeader.add(new TestObjectProperty('Signature', ConditionType.EQUALS,Signature))
+	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,authHeader))
+	Inquiry.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Inquiry)
 	WS.verifyResponseStatusCode(responseObj, 200)
 	JsonSlurper slurper = new JsonSlurper()
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
 	WebUI.comment(parsedJson.toString())
-	
 

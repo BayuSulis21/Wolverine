@@ -50,7 +50,7 @@ import org.apache.commons.codec.binary.Base64;
 	String merchantId=GlobalVariable.merchantId
 	String merchantName=GlobalVariable.merchantName
 	String phoneNumber=GlobalVariable.hp
-	String amount=30000
+	String amount=27500
 	GlobalVariable.amount_securepage=amount
 	//random trxID
 	String trxID="AA1610000"+Math.abs(new Random().nextInt() % 999999)

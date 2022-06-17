@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/_x/hzlzwd8j20gfzg0809vw8zhh0000gq/T/Katalon/Test Cases/15. Enhancement secure page/SP-75. Optima BE - CheckStatus Transaksi Refund Success/20220530_140253/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/_x/hzlzwd8j20gfzg0809vw8zhh0000gq/T/Katalon/20220531_131252/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/15. Enhancement secure page/SP-75. Optima BE - CheckStatus Transaksi Refund Success', new TestCaseBinding('Test Cases/15. Enhancement secure page/SP-75. Optima BE - CheckStatus Transaksi Refund Success',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
