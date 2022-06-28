@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_waktu_menit1</name>
+   <tag></tag>
+   <elementGuidId>36ac439d-1c74-48ce-8cf9-59038f3e7869</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = '${menit1}' or . = '${menit1}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ec28ee2b-24d7-4eaa-9a1d-9bab475b6dc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>
+                              tw-cursor-pointer
+                              tw-flex
+                              tw-items-center
+                              tw-justify-center
+                              tw-h-8
+                              tw-text-sm
+                              tw-text-center
+                              tw-px-5
+                               tw-bg-secondary-800 tw-text-white tw-font-semibold
+                            </value>
+      <webElementGuid>518b4328-2d4e-4b17-a4a2-2e07b155e3e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>06</value>
+      <webElementGuid>6b06a458-fcb7-46c2-93fe-4b96a545ef63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-root&quot;)/div[@class=&quot;modal-background&quot;]/div[@class=&quot;modal-container bounceIn tw-rounded&quot;]/div[@class=&quot;tw-w-full
+          tw-h-full
+          tw-flex
+          tw-flex-col
+          tw-justify-between
+          tw-bg-white
+          tw-rounded
+          tw-overflow-hidden
+          tw-overflow-y-auto
+          tw-sm:w-4/6
+          lg:tw-w-1/2
+          lg:tw-max-w-2xl&quot;]/div[1]/div[@class=&quot;tw-p-4 tw-overflow-y-auto&quot;]/div[@class=&quot;tw-mb-5&quot;]/div[@class=&quot;tw-w-full tw-relative tw-rounded tw-overflow-hidden tw-bg-blue-10 tw-border&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative sm:tw-flex-row tw-justify-between tw-border-b&quot;]/div[@class=&quot;tw-w-full sm:tw-w-1/2 tw-p-4 tw-pb-6 sm:tw-pb-8 sm:tw-p-8&quot;]/div[@class=&quot;tw-w-full sm:tw-w-auto tw-flex tw-justify-center&quot;]/div[@class=&quot;tw-select-none tw-shadow-sm tw-w-full sm:tw-w-auto tw-rounded tw-border&quot;]/div[@class=&quot;tw-flex tw-items-center tw-justify-between&quot;]/div[@class=&quot;tw-border-l tw-w-24 tw-self-center tw-relative tw-px-2 tw-py-2 tw-flex tw-items-center tw-justify-center sm:tw-w-20 sm:tw-px-2&quot;]/div[@class=&quot;tw-fixed tw-w-screen tw-h-screen tw-bg-transparent&quot;]/div[@class=&quot;tw-fixed tw-shadow tw-rounded tw-overflow-y-hidden tw-bg-black tw-h-40 tw-z-100 tw-bg-white tw-flex animation-show&quot;]/div[@class=&quot;tw-overflow-y-auto&quot;]/div[@class=&quot;tw-cursor-pointer
+                              tw-flex
+                              tw-items-center
+                              tw-justify-center
+                              tw-h-8
+                              tw-text-sm
+                              tw-text-center
+                              tw-px-5
+                               tw-bg-secondary-800 tw-text-white tw-font-semibold&quot;]</value>
+      <webElementGuid>4fc92e21-2832-4be4-ab47-502c1f61ab60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-root']/div/div/div/div/div[2]/div[5]/div/div/div[3]/div/div/div/div/div[4]/div/div[2]/div[7]</value>
+      <webElementGuid>de696ed1-0283-4c7d-b62e-038026afe958</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='{{.Voucher}}'])[1]/following::div[63]</value>
+      <webElementGuid>6c0fdffe-e8e9-4987-a1cd-93c7543592d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::div[64]</value>
+      <webElementGuid>3d5532de-7e91-490d-b17e-3df51bb18353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::div[59]</value>
+      <webElementGuid>1406f827-3bce-406b-a045-5faca16527ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::div[59]</value>
+      <webElementGuid>0495df64-55f6-4766-8e31-3e4470284f6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[7]</value>
+      <webElementGuid>76b55a56-e50c-4669-b7e2-5c1bd3be66c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '06' or . = '06')]</value>
+      <webElementGuid>aa92482a-b476-41be-9136-4c392182399e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

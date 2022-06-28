@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tutup_select2</name>
+   <tag></tag>
+   <elementGuidId>3f99c458-d115-412e-9cdd-87d0f58bf507</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal-root']/div/div/div/div/div[2]/div[5]/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>15dc9e60-a9fb-4624-a144-85ff57798694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-w-full sm:tw-w-1/2 tw-p-4 tw-pb-6 sm:tw-pb-8 sm:tw-p-8</value>
+      <webElementGuid>071a5077-b0e2-4c2f-ba3d-13125385c99a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>End Date21-06-202216 : 23</value>
+      <webElementGuid>52bf173c-4d8e-456f-bfac-851b60e8f654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-root&quot;)/div[@class=&quot;modal-background&quot;]/div[@class=&quot;modal-container bounceIn tw-rounded&quot;]/div[@class=&quot;tw-w-full
+          tw-h-full
+          tw-flex
+          tw-flex-col
+          tw-justify-between
+          tw-bg-white
+          tw-rounded
+          tw-overflow-hidden
+          tw-overflow-y-auto
+          tw-sm:w-4/6
+          lg:tw-w-1/2
+          lg:tw-max-w-2xl&quot;]/div[1]/div[@class=&quot;tw-p-4 tw-overflow-y-auto&quot;]/div[@class=&quot;tw-mb-5&quot;]/div[@class=&quot;tw-w-full tw-relative tw-rounded tw-overflow-hidden tw-bg-blue-10 tw-border&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative sm:tw-flex-row tw-justify-between tw-border-b&quot;]/div[@class=&quot;tw-w-full sm:tw-w-1/2 tw-p-4 tw-pb-6 sm:tw-pb-8 sm:tw-p-8&quot;]</value>
+      <webElementGuid>278400c4-9c92-4c2c-95d4-e5548216bda2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-root']/div/div/div/div/div[2]/div[5]/div/div/div[3]</value>
+      <webElementGuid>f7b80b9e-d871-4577-96f4-2912a33be30e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='{{.Voucher}}'])[1]/following::div[19]</value>
+      <webElementGuid>4c6ef68c-54b7-436c-a85f-a6e14a59e121</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::div[20]</value>
+      <webElementGuid>eac04b4a-3415-4567-8ac5-188730d3ed36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::div[15]</value>
+      <webElementGuid>69c2c9c1-93f5-4b41-bc11-23627a364b0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::div[15]</value>
+      <webElementGuid>fd869ef6-ff4d-44d0-b976-17a3f1da7176</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div[3]</value>
+      <webElementGuid>e34726e2-0ecc-4b61-b449-819f522531a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'End Date21-06-202216 : 23' or . = 'End Date21-06-202216 : 23')]</value>
+      <webElementGuid>5911b9d5-1f67-48a0-a010-edf7c9be23c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

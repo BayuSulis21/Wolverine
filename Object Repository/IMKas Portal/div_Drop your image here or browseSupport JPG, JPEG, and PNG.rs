@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Drop your image here or browseSupport JPG, JPEG, and PNG</name>
+   <tag></tag>
+   <elementGuidId>42949b0b-b829-40a3-b604-e84b3af412c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.tw-flex.tw-flex-col.tw-justify-center.tw-items-center.tw-w-full.tw-h-full.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d49c9ea3-4147-49d1-a9ca-80bb5b2a96a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-flex tw-flex-col tw-justify-center tw-items-center  tw-w-full tw-h-full undefined</value>
+      <webElementGuid>9d320353-0522-48ea-9493-49b5632c8445</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drop your image here or browseSupport JPG, JPEG, and PNG</value>
+      <webElementGuid>9fe9d5b1-0aea-41b5-824a-275ad0df970f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-root&quot;)/div[@class=&quot;modal-background&quot;]/div[@class=&quot;modal-container bounceIn tw-rounded&quot;]/div[@class=&quot;tw-w-full
+          tw-h-full
+          tw-flex
+          tw-flex-col
+          tw-justify-between
+          tw-bg-white
+          tw-rounded
+          tw-overflow-hidden
+          tw-overflow-y-auto
+          tw-sm:w-4/6
+          lg:tw-w-1/2
+          lg:tw-max-w-2xl&quot;]/div[1]/div[@class=&quot;tw-p-4 tw-overflow-y-auto&quot;]/div[@class=&quot;tw-relative tw-flex tw-flex-col tw-items-center tw-justify-center tw-p-3 tw-pb-1 tw-mb-6 tw-border tw-border-dashed tw-h-48 tw-rounded tw-overflow-hidden tw-border-gray-300&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-justify-center tw-items-center  tw-w-full tw-h-full undefined&quot;]</value>
+      <webElementGuid>d038f5ac-2378-4a90-8315-8668ae516310</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-root']/div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>7aee1e12-0b20-4543-ad47-ad44fe25a16f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User (csv)'])[1]/preceding::div[1]</value>
+      <webElementGuid>bf20ea46-96b0-4241-a320-162965e2645b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>f9682047-8f88-4874-a485-c574764d3c07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Drop your image here or browseSupport JPG, JPEG, and PNG' or . = 'Drop your image here or browseSupport JPG, JPEG, and PNG')]</value>
+      <webElementGuid>d48ab4d6-9bf9-4bbf-bd8c-fd69da8b88f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

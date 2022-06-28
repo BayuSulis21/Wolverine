@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_waktu1</name>
+   <tag></tag>
+   <elementGuidId>9435c98c-f687-4183-9cec-27c4ee20b907</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal-root']/div/div/div/div/div[2]/div[5]/div/div/div[3]/div/div/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>197b1049-c083-4916-9612-04f96ee6eb36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>
+                  tw-flex
+                  tw-item-center
+                  tw-justify-center
+                  tw-w-14
+                  tw-py-1
+                  tw-rounded
+                   tw-cursor-pointer tw-shadow-inner tw-border
+                </value>
+      <webElementGuid>8290b779-5418-4d4e-9c05-a8deeaec00f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>16 : 06</value>
+      <webElementGuid>2c04f144-9463-498b-81f7-a6f6a98b3a95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-root&quot;)/div[@class=&quot;modal-background&quot;]/div[@class=&quot;modal-container bounceIn tw-rounded&quot;]/div[@class=&quot;tw-w-full
+          tw-h-full
+          tw-flex
+          tw-flex-col
+          tw-justify-between
+          tw-bg-white
+          tw-rounded
+          tw-overflow-hidden
+          tw-overflow-y-auto
+          tw-sm:w-4/6
+          lg:tw-w-1/2
+          lg:tw-max-w-2xl&quot;]/div[1]/div[@class=&quot;tw-p-4 tw-overflow-y-auto&quot;]/div[@class=&quot;tw-mb-5&quot;]/div[@class=&quot;tw-w-full tw-relative tw-rounded tw-overflow-hidden tw-bg-blue-10 tw-border&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative sm:tw-flex-row tw-justify-between tw-border-b&quot;]/div[@class=&quot;tw-w-full sm:tw-w-1/2 tw-p-4 tw-pb-6 sm:tw-pb-8 sm:tw-p-8&quot;]/div[@class=&quot;tw-w-full sm:tw-w-auto tw-flex tw-justify-center&quot;]/div[@class=&quot;tw-select-none tw-shadow-sm tw-w-full sm:tw-w-auto tw-rounded tw-border&quot;]/div[@class=&quot;tw-flex tw-items-center tw-justify-between&quot;]/div[@class=&quot;tw-border-l tw-w-24 tw-self-center tw-relative tw-px-2 tw-py-2 tw-flex tw-items-center tw-justify-center sm:tw-w-20 sm:tw-px-2&quot;]/div[@class=&quot;tw-flex
+                  tw-item-center
+                  tw-justify-center
+                  tw-w-14
+                  tw-py-1
+                  tw-rounded
+                   tw-cursor-pointer tw-shadow-inner tw-border&quot;]</value>
+      <webElementGuid>cd21f244-4435-4183-a219-3da50ab0e391</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-root']/div/div/div/div/div[2]/div[5]/div/div/div[3]/div/div/div/div/div[3]</value>
+      <webElementGuid>075defc6-91dc-4f89-92b6-44a9335fa0ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='{{.Voucher}}'])[1]/following::div[28]</value>
+      <webElementGuid>497ec509-c738-4053-9983-309275aea9c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::div[29]</value>
+      <webElementGuid>4046de64-4001-441d-a44f-45cd52f78648</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::div[6]</value>
+      <webElementGuid>f9082e19-d485-4231-a55c-4821fe084f03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::div[6]</value>
+      <webElementGuid>c5a1ca36-0202-438c-a69a-5bc83b5b536a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div[3]</value>
+      <webElementGuid>a91129e8-1e5a-444f-b5dc-dd9868b7c2b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '16 : 06' or . = '16 : 06')]</value>
+      <webElementGuid>e2c80e9b-48b7-4a89-8ce3-cb133e245ef3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

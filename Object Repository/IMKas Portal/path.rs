@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>8617c893-c813-415c-85bb-2a444f23c43c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.tw-absolute.tw--bottom-4.tw-left-5 > div.tw-cursor-pointer > svg.tw-text-secondary-800.tw-transform > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>5fb75052-84df-4468-9218-9d860064f3b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M1 1L11 11L21 1</value>
+      <webElementGuid>a1834514-80ef-4a04-b4da-dab5cee3e093</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>6a64e82d-715f-4861-8b6d-1ea44533537d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>cb87fbb7-b71c-4fc0-8f70-8668660f5730</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linecap</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>63cf0d5a-e014-4b0f-ae7c-61206ad3bc2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-root&quot;)/div[@class=&quot;modal-background&quot;]/div[@class=&quot;modal-container bounceIn tw-rounded&quot;]/div[@class=&quot;tw-w-full
+          tw-h-full
+          tw-flex
+          tw-flex-col
+          tw-justify-between
+          tw-bg-white
+          tw-rounded
+          tw-overflow-hidden
+          tw-overflow-y-auto
+          tw-sm:w-4/6
+          lg:tw-w-1/2
+          lg:tw-max-w-2xl&quot;]/div[1]/div[@class=&quot;tw-p-4 tw-overflow-y-auto&quot;]/div[@class=&quot;tw-mb-5&quot;]/div[@class=&quot;tw-w-full tw-relative tw-rounded tw-overflow-hidden tw-bg-blue-10 tw-border&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative sm:tw-flex-row tw-justify-between tw-border-b&quot;]/div[@class=&quot;tw-w-full sm:tw-w-1/2 tw-p-4 tw-pb-6 sm:tw-pb-8 sm:tw-p-8&quot;]/div[@class=&quot;tw-w-full sm:tw-w-auto tw-flex tw-justify-center&quot;]/div[@class=&quot;tw-select-none tw-shadow-sm tw-w-full sm:tw-w-auto tw-rounded tw-border&quot;]/div[@class=&quot;tw-flex tw-items-center tw-justify-between&quot;]/div[@class=&quot;tw-border-l tw-w-24 tw-self-center tw-relative tw-px-2 tw-py-2 tw-flex tw-items-center tw-justify-center sm:tw-w-20 sm:tw-px-2&quot;]/div[@class=&quot;tw-absolute tw--bottom-4 tw-left-5&quot;]/div[@class=&quot;tw-cursor-pointer&quot;]/svg[@class=&quot;tw-text-secondary-800 tw-transform&quot;]/path[1]</value>
+      <webElementGuid>0f6f07fa-00a7-481c-8233-34f7769c5ee3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

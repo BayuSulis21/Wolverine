@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'INDOLIFE'</initValue>
+      <initValue>'BOGASARI'</initValue>
       <name>app_id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

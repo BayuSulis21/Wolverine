@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_waktu_menit</name>
+   <tag></tag>
+   <elementGuidId>bfebb8da-20fd-411d-829a-b872b59a1355</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = '${menit}' or . = '${menit}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>037e154b-ed63-439b-8561-b29e9d2d5e90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>
+                              tw-cursor-pointer
+                              tw-flex
+                              tw-items-center
+                              tw-justify-center
+                              tw-h-8
+                              tw-text-sm
+                              tw-text-center
+                              tw-px-5
+                               tw-bg-secondary-800 tw-text-white tw-font-semibold
+                            </value>
+      <webElementGuid>6d2ec4ed-0160-4f06-a616-77044136503d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>55</value>
+      <webElementGuid>9ff46b34-938a-441b-bbae-c84105061998</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-root&quot;)/div[@class=&quot;modal-background&quot;]/div[@class=&quot;modal-container bounceIn tw-rounded&quot;]/div[@class=&quot;tw-w-full
+          tw-h-full
+          tw-flex
+          tw-flex-col
+          tw-justify-between
+          tw-bg-white
+          tw-rounded
+          tw-overflow-hidden
+          tw-overflow-y-auto
+          tw-sm:w-4/6
+          lg:tw-w-1/2
+          lg:tw-max-w-2xl&quot;]/div[1]/div[@class=&quot;tw-p-4 tw-overflow-y-auto&quot;]/div[@class=&quot;tw-mb-5&quot;]/div[@class=&quot;tw-w-full tw-relative tw-rounded tw-overflow-hidden tw-bg-blue-10 tw-border&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative sm:tw-flex-row tw-justify-between tw-border-b&quot;]/div[@class=&quot;tw-w-full sm:tw-w-1/2 tw-p-4 tw-pb-6 sm:tw-pb-8 sm:tw-p-8&quot;]/div[@class=&quot;tw-w-full sm:tw-w-auto tw-flex tw-justify-center&quot;]/div[@class=&quot;tw-select-none tw-shadow-sm tw-w-full sm:tw-w-auto tw-rounded tw-border&quot;]/div[@class=&quot;tw-flex tw-items-center tw-justify-between&quot;]/div[@class=&quot;tw-border-l tw-w-24 tw-self-center tw-relative tw-px-2 tw-py-2 tw-flex tw-items-center tw-justify-center sm:tw-w-20 sm:tw-px-2&quot;]/div[@class=&quot;tw-fixed tw-w-screen tw-h-screen tw-bg-transparent&quot;]/div[@class=&quot;tw-fixed tw-shadow tw-rounded tw-overflow-y-hidden tw-bg-black tw-h-40 tw-z-100 tw-bg-white tw-flex animation-show&quot;]/div[@class=&quot;tw-overflow-y-auto&quot;]/div[@class=&quot;tw-cursor-pointer
+                              tw-flex
+                              tw-items-center
+                              tw-justify-center
+                              tw-h-8
+                              tw-text-sm
+                              tw-text-center
+                              tw-px-5
+                               tw-bg-secondary-800 tw-text-white tw-font-semibold&quot;]</value>
+      <webElementGuid>958aa7c1-b0b4-4d24-a0e5-f598e7b315ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-root']/div/div/div/div/div[2]/div[5]/div/div/div[2]/div/div/div/div/div[4]/div/div[2]/div[56]</value>
+      <webElementGuid>dd369d64-eb6b-4581-a69b-496bbea17412</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='{{.Voucher}}'])[1]/following::div[98]</value>
+      <webElementGuid>0a291622-4ad2-4d39-ad82-8e4903d19861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::div[99]</value>
+      <webElementGuid>0534db77-4409-4d4b-b567-3ccd2177447d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::div[24]</value>
+      <webElementGuid>2d597d3f-87e9-420c-96a2-0981589ce0bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::div[24]</value>
+      <webElementGuid>a3564096-3eb5-4061-8f9e-69e01098d4d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='55']/parent::*</value>
+      <webElementGuid>f7ccec04-ddec-4ef9-a0c6-bc7804b0499b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[56]</value>
+      <webElementGuid>334589e0-55e5-4675-95bf-25599566e491</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '55' or . = '55')]</value>
+      <webElementGuid>ec287a56-b8a9-4bf6-87c4-d1ef0d069644</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

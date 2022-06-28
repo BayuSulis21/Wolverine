@@ -283,7 +283,7 @@ Profile backup : Nominal bayar test QRIS</p>
     public static Object RETRIBUSI
      
     /**
-     * <p></p>
+     * <p>Profile default : http:&#47;&#47;117.53.45.7:53000</p>
      */
     public static Object url_retribusi
      
@@ -306,6 +306,26 @@ Profile backup : Nominal bayar test QRIS</p>
      * <p></p>
      */
     public static Object access_token
+     
+    /**
+     * <p></p>
+     */
+    public static Object userApiKey_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object signature_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object username_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object password_retribusi
      
     /**
      * <p></p>
@@ -378,6 +398,10 @@ Profile backup : Nominal bayar test QRIS</p>
             client_secret_retribusi = selectedVariables['client_secret_retribusi']
             scope_retribusi = selectedVariables['scope_retribusi']
             access_token = selectedVariables['access_token']
+            userApiKey_retribusi = selectedVariables['userApiKey_retribusi']
+            signature_retribusi = selectedVariables['signature_retribusi']
+            username_retribusi = selectedVariables['username_retribusi']
+            password_retribusi = selectedVariables['password_retribusi']
             secretKey = selectedVariables['secretKey']
             
         } catch (Exception e) {

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-51. BE-Payment Retribusi dengan kondisi issued_at dan posted_at invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d663a1cc-f4ad-445c-9d74-38579636b197</testCaseGuid>
+</TestCaseEntity>

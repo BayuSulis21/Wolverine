@@ -27,9 +27,10 @@ import com.kms.katalon.core.annotation.Keyword
 
 //Connect to Database
 CustomKeywords.'com.database.ConnectionMysql.connectDB'('34.101.167.194', 'secure_page', '3306', 'wolverine', 'W0lver1ne#21')
-String queryData='SELECT * FROM secure_page where id=2420'
+String trxId ='MOBAYU100003500077'
+String queryData='SELECT * FROM secure_page where trxId="'+trxId+'"'
 ResultSet queryResult = CustomKeywords.'com.database.ConnectionMysql.executeQuery'(queryData)
 queryResult.next()
-String valueFromDatabase = queryResult.getString(4)
+String valueFromDatabase = queryResult.getString(12)
 println(valueFromDatabase)
 CustomKeywords.'com.database.ConnectionMysql.closeDatabaseConnection'()

@@ -43,21 +43,21 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	
 	//set httpheader
 	String Accept = "application/json"
+	String Auth=GlobalVariable.access_token
 	
 	//set httpbody
-	String client_id=GlobalVariable.client_id_retribusi
-	String client_secret=GlobalVariable.client_secret_retribusi
-	String scope=GlobalVariable.scope_retribusi
-	String grant_type="client_credentials"
+	String username=GlobalVariable.username_retribusi
+	String password=GlobalVariable.password_retribusi
 	  
 	//post httpbody
-	String jsonbody = '{"client_id": "'+client_id+'","client_secret": "'+client_secret+'","grant_type": "'+grant_type+'","scope": "'+scope+'"}'
+	String jsonbody = '{"username": "'+username+'","password": "'+password+'"}'
 	WebUI.comment(jsonbody)
 	Authorization.setBodyContent(new HttpTextBodyContent(jsonbody, "UTF-8", "application/json"))
 	
 	//post httpheader
 	ArrayList HTTPHeader = new ArrayList()
 	HTTPHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS,'application/json'))
+	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,Auth))
 	Authorization.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Authorization)
@@ -66,7 +66,7 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
 	WebUI.comment(parsedJson.toString())
 	
-	String access_token_retribusi = parsedJson.get("access_token")
+	String access_token_retribusi = parsedJson.get("token")
 	GlobalVariable.access_token=access_token_retribusi
 	WebUI.comment(GlobalVariable.access_token)
 	
