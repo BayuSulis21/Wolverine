@@ -40,11 +40,6 @@
       <name>pin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'159357'</initValue>
-      <name>pin_ubah</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description>Nominal bayar test QRIS</description>
       <initValue>'68000'</initValue>
       <name>qris_nominal_bayar</name>
@@ -118,16 +113,6 @@
       <description></description>
       <initValue>'js_uNXLv7y_0g6lM61WRx3Qw4UEa'</initValue>
       <name>SecretID_PARANJE</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'b6jraakn3qff5kUPqDs_W4j1xsoa'</initValue>
-      <name>ClientID_AKUMAJU</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'ZhExyMUl6Sg2QRfTr29f5zqZSWca'</initValue>
-      <name>SecretID_AKUMAJU</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -326,57 +311,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'global-retribusi'</initValue>
+      <initValue>'bayusulistyo07@gmail.com'</initValue>
       <name>username_retribusi</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'admin1234'</initValue>
+      <initValue>'BayuSulis21'</initValue>
       <name>password_retribusi</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'GLOBALINDO'</initValue>
-      <name>appID_retribusi</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>amount_retribusi</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'GR0336'</initValue>
-      <name>code_retribusi_sudah_bayar</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'GR0337'</initValue>
-      <name>code_retribusi_belum_bayar</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'GR0338'</initValue>
-      <name>code_retribusi_belum_bayar1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'GR0352'</initValue>
-      <name>customerID_retribusi</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'1'</initValue>
-      <name>locationID_retribusi</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'2022-07-06 09:00:00'</initValue>
-      <name>datetime_retribusi</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>inquiryReferenceNumber</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

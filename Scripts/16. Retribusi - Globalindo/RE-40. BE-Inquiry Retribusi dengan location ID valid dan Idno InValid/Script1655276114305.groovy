@@ -47,14 +47,12 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	WS.callTestCase(findTestCase('16. Retribusi - Globalindo/RE-33. BE-Run API Authorization get access_token'), null)
 	
 	//set httpheader
-	String Authorization ="Bearer "+ GlobalVariable.access_token
-	String AppID=GlobalVariable.appID_retribusi
+	String Authorization = "Bearer "+GlobalVariable.access_token
 	
 	//post httpheader
 	ArrayList HTTPHeader = new ArrayList()
 	HTTPHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS,'application/json'))
 	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,Authorization))
-	HTTPHeader.add(new TestObjectProperty('Apps-ID', ConditionType.EQUALS,AppID))
 	Location.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Location)

@@ -41,27 +41,22 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 
  
 	String location_id=1
-	String code=GlobalVariable.code_retribusi_sudah_bayar
+	String code="GR0001"
 	RequestObject Location=findTestObject('Object Repository/Retribusi - Globalindo/Inquiry by Location ID', [('location_id') :location_id,('code') :code])
 	
 	WS.callTestCase(findTestCase('16. Retribusi - Globalindo/RE-33. BE-Run API Authorization get access_token'), null)
 	
-	WebUI.comment("Payment Retribusi untuk location id"+location_id+" dan code"+code)
-	
-	
 	//set httpheader
 	String Authorization = "Bearer "+GlobalVariable.access_token
-	String AppID=GlobalVariable.appID_retribusi
 	
 	//post httpheader
 	ArrayList HTTPHeader = new ArrayList()
 	HTTPHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS,'application/json'))
 	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,Authorization))
-	HTTPHeader.add(new TestObjectProperty('Apps-ID', ConditionType.EQUALS,AppID))
 	Location.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Location)
-	WS.verifyResponseStatusCode(responseObj, 200)
+	WS.verifyResponseStatusCode(responseObj, 400)
 	JsonSlurper slurper = new JsonSlurper()
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
 	WebUI.comment(parsedJson.toString())

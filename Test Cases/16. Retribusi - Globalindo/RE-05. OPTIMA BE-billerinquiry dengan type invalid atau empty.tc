@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-05. OPTIMA BE-billerinquiry dengan type invalid atau empty</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c1900a34-9328-495e-b2c6-1a94807acc13</testCaseGuid>
-</TestCaseEntity>

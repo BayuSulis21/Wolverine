@@ -41,20 +41,18 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 
  
 	String location_id=1
-	String code=GlobalVariable.code_retribusi_belum_bayar
+	String code="GR9999"
 	RequestObject Location=findTestObject('Object Repository/Retribusi - Globalindo/Inquiry by Location ID', [('location_id') :location_id,('code') :code])
 	
 	WS.callTestCase(findTestCase('16. Retribusi - Globalindo/RE-33. BE-Run API Authorization get access_token'), null)
 	
 	//set httpheader
 	String Authorization = "Bearer "+GlobalVariable.access_token
-	String AppID=GlobalVariable.appID_retribusi
 	
 	//post httpheader
 	ArrayList HTTPHeader = new ArrayList()
 	HTTPHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS,'application/json'))
 	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,Authorization))
-	HTTPHeader.add(new TestObjectProperty('Apps-ID', ConditionType.EQUALS,AppID))
 	Location.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Location)
@@ -62,7 +60,3 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	JsonSlurper slurper = new JsonSlurper()
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
 	WebUI.comment(parsedJson.toString())
-	
-	String amount_retribusi = parsedJson.get("data").get("data").get("payable")
-	GlobalVariable.amount_retribusi=amount_retribusi
-	WebUI.comment(GlobalVariable.amount_retribusi)

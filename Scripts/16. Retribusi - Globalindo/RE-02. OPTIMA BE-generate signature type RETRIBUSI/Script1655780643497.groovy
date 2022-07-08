@@ -39,28 +39,23 @@ import com.kms.katalon.core.testobject.impl.HttpFileBodyContent //for file in bo
 import com.kms.katalon.core.testobject.impl.HttpFormDataBodyContent //for form data body
 import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL encoded text body
 
-	//Get UserApiKey
-	WS.callTestCase(findTestCase('16. Retribusi - Globalindo/RE-01. OPTIMA BE-generateUserApiKey'), null)
-
+ 
+	String userType="test"
+	
 	RequestObject generatedUserApiKey=findTestObject('Object Repository/optima/generate signature')
 		
 	//set httpheader
-	String appName = GlobalVariable.appID_retribusi
-	String dateTimeRequest = GlobalVariable.datetime_retribusi
+	String appName = "INDOLIFE"
+	String dateTimeRequest = "2022-06-20 09:00:00"
 	
 	//set httpbody
 	String userApiKey=GlobalVariable.userApiKey_retribusi
-	String type="RETRIBUSI"
-	String productName="RETRIBUSI GLOBALINDO"
-	String customerId=GlobalVariable.customerID_retribusi
-	String locationId=GlobalVariable.locationID_retribusi
+	String type="PULSA"
+	String productName="XL 20000"
+	String customerId=GlobalVariable.hp
 	
-	String jsonbody = '{"userApiKey": "'+userApiKey+
-					  '","type": "'+type+
-					  '","productName": "'+productName+
-					  '","customerId": "'+customerId+
-					  '","locationId": '+locationId+
-					  '}'
+	
+	String jsonbody = '{"userApiKey": "'+userApiKey+'","type": "'+type+'","productName": "'+productName+'","customerId": "'+customerId+'"}'
 	WebUI.comment(jsonbody)
 	
 	//post httpbody
@@ -78,7 +73,7 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
 	WebUI.comment(parsedJson.toString())
 	
-	String signature_retribusi = parsedJson.get("data").get("signature")
-	GlobalVariable.signature_retribusi=signature_retribusi
-	WebUI.comment("Signature: "+signature_retribusi)
+	String userApiKey_hasil = parsedJson.get("data").get("signature")
+	GlobalVariable.signature_retribusi=userApiKey_hasil
+	WebUI.comment(userApiKey_hasil)
 	

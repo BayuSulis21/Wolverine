@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-06. OPTIMA BE-billerinquiry dengan productName invalid atau empty</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>663005ee-4c45-4f44-af19-2c3253129e14</testCaseGuid>
-</TestCaseEntity>

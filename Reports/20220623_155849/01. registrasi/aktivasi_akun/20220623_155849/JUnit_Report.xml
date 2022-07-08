@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="aktivasi_akun" time="107.534" tests="2" failures="1" errors="0">
+   <testsuite name="aktivasi_akun" tests="2" failures="1" errors="0" time="107.534" skipped="0" timestamp="2022-06-23 15:58:53" hostname="bayusulistyo - adsl-172-10-8-51.dsl.sndg02.sbcglobal.net" id="Test Suites/01. registrasi/aktivasi_akun">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849"/>
+         <property name="logFiles" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/execution0.log, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/appium.log"/>
+         <property name="attachments" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974774510.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974783686.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974799798.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974808430.png, /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974840590.png"/>
+         <property name="hostName" value="bayusulistyo - adsl-172-10-8-51.dsl.sndg02.sbcglobal.net"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Redmi Note 9 Pro"/>
+         <property name="hostAddress" value="172.10.8.51"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="8756e6bc"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/01. registrasi/setup_ocdk" time="41.734" classname="Test Cases/01. registrasi/setup_ocdk" status="PASSED">
+         <system-out><![CDATA[2022-06-23 15:58:54 - [TEST_CASE][PASSED] - Test Cases/01. registrasi/setup_ocdk: Test Cases/01. registrasi/setup_ocdk
+
+2022-06-23 15:58:55 - [TEST_STEP][PASSED] - startApplication("/Users/bayusulistyo/Downloads/" + apk, true): Started app at: '/Users/bayusulistyo/Downloads/ottosdk-hostapp-27-01-2021.apk'
+
+2022-06-23 15:58:58 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-06-23 15:58:58 - [MESSAGE][INFO] - User set preference: ['deviceId', '8756e6bc']
+
+2022-06-23 15:58:58 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-06-23 15:59:02 - [MESSAGE][INFO] - Appium server started on port 58,592
+
+2022-06-23 15:59:23 - [MESSAGE][PASSED] - Started app at: '/Users/bayusulistyo/Downloads/ottosdk-hostapp-27-01-2021.apk'
+
+2022-06-23 15:59:23 - [TEST_STEP][PASSED] - comment("Set Link Otto Cash"): Set Link Otto Cash
+
+2022-06-23 15:59:23 - [MESSAGE][INFO] - Set Link Otto Cash
+
+2022-06-23 15:59:23 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EUrl"), baseUrl, 0): Text 'https://wolverine-dev.ottodigital.id/ocsdk' has been set to element 'Object Repository/Setup/EUrl'
+
+2022-06-23 15:59:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:25 - [MESSAGE][PASSED] - Text 'https://wolverine-dev.ottodigital.id/ocsdk' has been set to element 'Object Repository/Setup/EUrl'
+
+2022-06-23 15:59:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 15:59:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 15:59:26 - [TEST_STEP][PASSED] - comment("Set Hp Customer"): Set Hp Customer
+
+2022-06-23 15:59:26 - [MESSAGE][INFO] - Set Hp Customer
+
+2022-06-23 15:59:26 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EPhone"), hp, 0): Text '0895635114073' has been set to element 'Object Repository/Setup/EPhone'
+
+2022-06-23 15:59:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:27 - [MESSAGE][PASSED] - Text '0895635114073' has been set to element 'Object Repository/Setup/EPhone'
+
+2022-06-23 15:59:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 15:59:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - appID = app_id: null
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - ClientID = "": null
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - SecretID = "": null
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - switch (appID): null
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - case "BOGASARI":: null
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - ClientID = ClientID_BOGASARI: null
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - SecretID = SecretID_BOGASARI: null
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - break: null
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - comment("Set AppID"): Set AppID
+
+2022-06-23 15:59:28 - [MESSAGE][INFO] - Set AppID
+
+2022-06-23 15:59:28 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EappID"), appID, 0): Text 'BOGASARI' has been set to element 'Object Repository/Setup/EappID'
+
+2022-06-23 15:59:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:29 - [MESSAGE][PASSED] - Text 'BOGASARI' has been set to element 'Object Repository/Setup/EappID'
+
+2022-06-23 15:59:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 15:59:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 15:59:30 - [TEST_STEP][PASSED] - comment("Set ClientID"): Set ClientID
+
+2022-06-23 15:59:30 - [MESSAGE][INFO] - Set ClientID
+
+2022-06-23 15:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EClientID"), ClientID, 0): Text 'L81P6nw_XhPf_recEmeuTEm1548a' has been set to element 'Object Repository/Setup/EClientID'
+
+2022-06-23 15:59:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:31 - [MESSAGE][PASSED] - Text 'L81P6nw_XhPf_recEmeuTEm1548a' has been set to element 'Object Repository/Setup/EClientID'
+
+2022-06-23 15:59:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 15:59:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 15:59:32 - [TEST_STEP][PASSED] - comment("Set SecretID"): Set SecretID
+
+2022-06-23 15:59:32 - [MESSAGE][INFO] - Set SecretID
+
+2022-06-23 15:59:32 - [TEST_STEP][PASSED] - setText(findTestObject("Setup/EClientSecret"), SecretID, 0): Text '9NxqotTEqnHG8iIqRRBVCicBbhga' has been set to element 'Object Repository/Setup/EClientSecret'
+
+2022-06-23 15:59:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:33 - [MESSAGE][PASSED] - Text '9NxqotTEqnHG8iIqRRBVCicBbhga' has been set to element 'Object Repository/Setup/EClientSecret'
+
+2022-06-23 15:59:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 15:59:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 15:59:34 - [TEST_STEP][PASSED] - comment("Save Setup"): Save Setup
+
+2022-06-23 15:59:34 - [MESSAGE][INFO] - Save Setup
+
+2022-06-23 15:59:34 - [TEST_STEP][PASSED] - tap(findTestObject("Setup/SaveSetup"), 0): Tapped on element 'Object Repository/Setup/SaveSetup'
+
+2022-06-23 15:59:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Setup/SaveSetup'
+
+2022-06-23 15:59:34 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2022-06-23 15:59:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974774510.png]]
+
+2022-06-23 15:59:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 15:59:36 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01. registrasi/aktivasi_akun" time="65.052" classname="Test Cases/01. registrasi/aktivasi_akun" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01. registrasi/aktivasi_akun FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/aktivasi/BtnSelesai not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at aktivasi_akun.run(aktivasi_akun:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655974729132.run(TempTestSuite1655974729132.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-23 15:59:36 - [TEST_CASE][FAILED] - Test Cases/01. registrasi/aktivasi_akun: Test Cases/01. registrasi/aktivasi_akun FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/aktivasi/BtnSelesai not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at aktivasi_akun.run(aktivasi_akun:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655974729132.run(TempTestSuite1655974729132.groovy:36)
+
+
+2022-06-23 15:59:36 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("aktivasi/menu"), 5, OPTIONAL)): Element 'Object Repository/aktivasi/menu' not found
+
+2022-06-23 15:59:41 - [MESSAGE][WARNING] - Element 'Object Repository/aktivasi/menu' not found
+
+2022-06-23 15:59:41 - [TEST_STEP][PASSED] - else: null
+
+2022-06-23 15:59:41 - [TEST_STEP][PASSED] - comment("Checklist"): Checklist
+
+2022-06-23 15:59:41 - [MESSAGE][INFO] - Checklist
+
+2022-06-23 15:59:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/aktivasi/checklist"), 0): Tapped on element 'Object Repository/aktivasi/checklist'
+
+2022-06-23 15:59:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/aktivasi/checklist'
+
+2022-06-23 15:59:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 15:59:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 15:59:43 - [TEST_STEP][PASSED] - comment("Klik Aktifkan"): Klik Aktifkan
+
+2022-06-23 15:59:43 - [MESSAGE][INFO] - Klik Aktifkan
+
+2022-06-23 15:59:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/aktivasi/Aktifkan"), 0): Tapped on element 'Object Repository/aktivasi/Aktifkan'
+
+2022-06-23 15:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/aktivasi/Aktifkan'
+
+2022-06-23 15:59:43 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2022-06-23 15:59:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974783686.png]]
+
+2022-06-23 15:59:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 15:59:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 15:59:46 - [TEST_STEP][PASSED] - responseObj = sendRequest(findTestObject("Object Repository/GetOTP")): Send request successfully
+
+2022-06-23 15:59:47 - [MESSAGE][INFO] - HAR: /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/requests/main/0.har
+
+2022-06-23 15:59:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-23 15:59:47 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(responseObj, 200)): null
+
+2022-06-23 15:59:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-06-23 15:59:47 - [TEST_STEP][PASSED] - out.println("Get OTP BERHASIL"): null
+
+2022-06-23 15:59:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 15:59:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 15:59:49 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-06-23 15:59:49 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseObj.getResponseText()): null
+
+2022-06-23 15:59:49 - [TEST_STEP][PASSED] - getOTP = get("otp").get("otp_number"): null
+
+2022-06-23 15:59:49 - [TEST_STEP][PASSED] - out.println(getOTP): null
+
+2022-06-23 15:59:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 15:59:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 15:59:50 - [TEST_STEP][PASSED] - varOTP = getOTP: null
+
+2022-06-23 15:59:50 - [TEST_STEP][PASSED] - otp1 = substring(0, 1).trim(): null
+
+2022-06-23 15:59:50 - [TEST_STEP][PASSED] - otp2 = substring(1, 2).trim(): null
+
+2022-06-23 15:59:50 - [TEST_STEP][PASSED] - otp3 = substring(2, 3).trim(): null
+
+2022-06-23 15:59:50 - [TEST_STEP][PASSED] - otp4 = substring(3, 4).trim(): null
+
+2022-06-23 15:59:50 - [TEST_STEP][PASSED] - otp5 = substring(4, 5).trim(): null
+
+2022-06-23 15:59:50 - [TEST_STEP][PASSED] - otp6 = substring(5, 6).trim(): null
+
+2022-06-23 15:59:50 - [TEST_STEP][PASSED] - comment("Input OTP"): Input OTP
+
+2022-06-23 15:59:50 - [MESSAGE][INFO] - Input OTP
+
+2022-06-23 15:59:50 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-23 15:59:51 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-23 15:59:51 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp1"), otp1, 0): Text '6' has been set to element 'Object Repository/aktivasi/Eotp1'
+
+2022-06-23 15:59:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:52 - [MESSAGE][PASSED] - Text '6' has been set to element 'Object Repository/aktivasi/Eotp1'
+
+2022-06-23 15:59:52 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-23 15:59:53 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-23 15:59:53 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp2"), otp2, 0): Text '5' has been set to element 'Object Repository/aktivasi/Eotp2'
+
+2022-06-23 15:59:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:53 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/aktivasi/Eotp2'
+
+2022-06-23 15:59:53 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-23 15:59:54 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-23 15:59:54 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp3"), otp3, 0): Text '2' has been set to element 'Object Repository/aktivasi/Eotp3'
+
+2022-06-23 15:59:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:55 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/aktivasi/Eotp3'
+
+2022-06-23 15:59:55 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-23 15:59:56 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-23 15:59:56 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp4"), otp4, 0): Text '7' has been set to element 'Object Repository/aktivasi/Eotp4'
+
+2022-06-23 15:59:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:57 - [MESSAGE][PASSED] - Text '7' has been set to element 'Object Repository/aktivasi/Eotp4'
+
+2022-06-23 15:59:57 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-23 15:59:58 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-23 15:59:58 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp5"), otp5, 0): Text '0' has been set to element 'Object Repository/aktivasi/Eotp5'
+
+2022-06-23 15:59:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 15:59:59 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/aktivasi/Eotp5'
+
+2022-06-23 15:59:59 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-23 15:59:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-23 15:59:59 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2022-06-23 16:00:00 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974799798.png]]
+
+2022-06-23 16:00:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 16:00:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 16:00:01 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Eotp6"), otp6, 0): Text '2' has been set to element 'Object Repository/aktivasi/Eotp6'
+
+2022-06-23 16:00:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 16:00:01 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/aktivasi/Eotp6'
+
+2022-06-23 16:00:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 16:00:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 16:00:04 - [TEST_STEP][PASSED] - comment("Input PIN"): Input PIN
+
+2022-06-23 16:00:04 - [MESSAGE][INFO] - Input PIN
+
+2022-06-23 16:00:04 - [TEST_STEP][PASSED] - varPIN = pin: null
+
+2022-06-23 16:00:04 - [TEST_STEP][PASSED] - pin1 = substring(0, 1).trim(): null
+
+2022-06-23 16:00:04 - [TEST_STEP][PASSED] - pin2 = substring(1, 2).trim(): null
+
+2022-06-23 16:00:04 - [TEST_STEP][PASSED] - pin3 = substring(2, 3).trim(): null
+
+2022-06-23 16:00:04 - [TEST_STEP][PASSED] - pin4 = substring(3, 4).trim(): null
+
+2022-06-23 16:00:04 - [TEST_STEP][PASSED] - pin5 = substring(4, 5).trim(): null
+
+2022-06-23 16:00:04 - [TEST_STEP][PASSED] - pin6 = substring(5, 6).trim(): null
+
+2022-06-23 16:00:04 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin1"), pin1, 0): Text '1' has been set to element 'Object Repository/aktivasi/Epin1'
+
+2022-06-23 16:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 16:00:05 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/aktivasi/Epin1'
+
+2022-06-23 16:00:05 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin2"), pin2, 0): Text '9' has been set to element 'Object Repository/aktivasi/Epin2'
+
+2022-06-23 16:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 16:00:06 - [MESSAGE][PASSED] - Text '9' has been set to element 'Object Repository/aktivasi/Epin2'
+
+2022-06-23 16:00:06 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin3"), pin3, 0): Text '1' has been set to element 'Object Repository/aktivasi/Epin3'
+
+2022-06-23 16:00:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 16:00:06 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/aktivasi/Epin3'
+
+2022-06-23 16:00:06 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin4"), pin4, 0): Text '1' has been set to element 'Object Repository/aktivasi/Epin4'
+
+2022-06-23 16:00:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 16:00:07 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/aktivasi/Epin4'
+
+2022-06-23 16:00:07 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin5"), pin5, 0): Text '6' has been set to element 'Object Repository/aktivasi/Epin5'
+
+2022-06-23 16:00:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 16:00:08 - [MESSAGE][PASSED] - Text '6' has been set to element 'Object Repository/aktivasi/Epin5'
+
+2022-06-23 16:00:08 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2022-06-23 16:00:09 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974808430.png]]
+
+2022-06-23 16:00:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 16:00:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 16:00:10 - [TEST_STEP][PASSED] - setText(findTestObject("aktivasi/Epin6"), pin6, 0): Text '4' has been set to element 'Object Repository/aktivasi/Epin6'
+
+2022-06-23 16:00:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 16:00:10 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/aktivasi/Epin6'
+
+2022-06-23 16:00:10 - [TEST_STEP][PASSED] - comment("Klik Selesai Aktivasi"): Klik Selesai Aktivasi
+
+2022-06-23 16:00:10 - [MESSAGE][INFO] - Klik Selesai Aktivasi
+
+2022-06-23 16:00:10 - [TEST_STEP][FAILED] - tap(findTestObject("aktivasi/BtnSelesai"), 0): Failed to tap on element 'Object Repository/aktivasi/BtnSelesai' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/aktivasi/BtnSelesai not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at aktivasi_akun.run(aktivasi_akun:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655974729132.run(TempTestSuite1655974729132.groovy:36)
+)
+
+2022-06-23 16:00:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-23 16:00:40 - [MESSAGE][FAILED] - Object Object Repository/aktivasi/BtnSelesai not found
+
+2022-06-23 16:00:41 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/aktivasi/BtnSelesai' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/aktivasi/BtnSelesai not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at aktivasi_akun.run(aktivasi_akun:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655974729132.run(TempTestSuite1655974729132.groovy:36)
+)
+[[ATTACHMENT|/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220623_155849/01. registrasi/aktivasi_akun/20220623_155849/1655974840590.png]]]]></system-out>
+         <system-err><![CDATA[2022-06-23 15:59:36 - [TEST_CASE][FAILED] - Test Cases/01. registrasi/aktivasi_akun: Test Cases/01. registrasi/aktivasi_akun FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/aktivasi/BtnSelesai not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at aktivasi_akun.run(aktivasi_akun:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655974729132.run(TempTestSuite1655974729132.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-23 15:58:53 - [TEST_SUITE][FAILED] - aktivasi_akun: Test Cases/01. registrasi/aktivasi_akun FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/aktivasi/BtnSelesai not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at aktivasi_akun.run(aktivasi_akun:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655974729132.run(TempTestSuite1655974729132.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-06-23 15:58:53 - [TEST_SUITE][FAILED] - aktivasi_akun: Test Cases/01. registrasi/aktivasi_akun FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/aktivasi/BtnSelesai not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at aktivasi_akun.run(aktivasi_akun:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655974729132.run(TempTestSuite1655974729132.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -47,11 +47,6 @@ Profile backup : 191164</p>
     public static Object pin
      
     /**
-     * <p></p>
-     */
-    public static Object pin_ubah
-     
-    /**
      * <p>Profile default : Nominal bayar test QRIS
 Profile backup : Nominal bayar test QRIS</p>
      */
@@ -126,16 +121,6 @@ Profile backup : Nominal bayar test QRIS</p>
      * <p></p>
      */
     public static Object SecretID_PARANJE
-     
-    /**
-     * <p></p>
-     */
-    public static Object ClientID_AKUMAJU
-     
-    /**
-     * <p></p>
-     */
-    public static Object SecretID_AKUMAJU
      
     /**
      * <p></p>
@@ -345,51 +330,6 @@ Profile backup : Nominal bayar test QRIS</p>
     /**
      * <p></p>
      */
-    public static Object appID_retribusi
-     
-    /**
-     * <p></p>
-     */
-    public static Object amount_retribusi
-     
-    /**
-     * <p></p>
-     */
-    public static Object code_retribusi_sudah_bayar
-     
-    /**
-     * <p></p>
-     */
-    public static Object code_retribusi_belum_bayar
-     
-    /**
-     * <p></p>
-     */
-    public static Object code_retribusi_belum_bayar1
-     
-    /**
-     * <p></p>
-     */
-    public static Object customerID_retribusi
-     
-    /**
-     * <p></p>
-     */
-    public static Object locationID_retribusi
-     
-    /**
-     * <p></p>
-     */
-    public static Object datetime_retribusi
-     
-    /**
-     * <p></p>
-     */
-    public static Object inquiryReferenceNumber
-     
-    /**
-     * <p></p>
-     */
     public static Object secretKey
      
 
@@ -406,7 +346,6 @@ Profile backup : Nominal bayar test QRIS</p>
             nama = selectedVariables['nama']
             email = selectedVariables['email']
             pin = selectedVariables['pin']
-            pin_ubah = selectedVariables['pin_ubah']
             qris_nominal_bayar = selectedVariables['qris_nominal_bayar']
             qris_nominal_tips = selectedVariables['qris_nominal_tips']
             apk = selectedVariables['apk']
@@ -422,8 +361,6 @@ Profile backup : Nominal bayar test QRIS</p>
             SecretID_MOAJA = selectedVariables['SecretID_MOAJA']
             ClientID_PARANJE = selectedVariables['ClientID_PARANJE']
             SecretID_PARANJE = selectedVariables['SecretID_PARANJE']
-            ClientID_AKUMAJU = selectedVariables['ClientID_AKUMAJU']
-            SecretID_AKUMAJU = selectedVariables['SecretID_AKUMAJU']
             nama_empty = selectedVariables['nama_empty']
             email_empty = selectedVariables['email_empty']
             email_tanpa_dot = selectedVariables['email_tanpa_dot']
@@ -465,15 +402,6 @@ Profile backup : Nominal bayar test QRIS</p>
             signature_retribusi = selectedVariables['signature_retribusi']
             username_retribusi = selectedVariables['username_retribusi']
             password_retribusi = selectedVariables['password_retribusi']
-            appID_retribusi = selectedVariables['appID_retribusi']
-            amount_retribusi = selectedVariables['amount_retribusi']
-            code_retribusi_sudah_bayar = selectedVariables['code_retribusi_sudah_bayar']
-            code_retribusi_belum_bayar = selectedVariables['code_retribusi_belum_bayar']
-            code_retribusi_belum_bayar1 = selectedVariables['code_retribusi_belum_bayar1']
-            customerID_retribusi = selectedVariables['customerID_retribusi']
-            locationID_retribusi = selectedVariables['locationID_retribusi']
-            datetime_retribusi = selectedVariables['datetime_retribusi']
-            inquiryReferenceNumber = selectedVariables['inquiryReferenceNumber']
             secretKey = selectedVariables['secretKey']
             
         } catch (Exception e) {

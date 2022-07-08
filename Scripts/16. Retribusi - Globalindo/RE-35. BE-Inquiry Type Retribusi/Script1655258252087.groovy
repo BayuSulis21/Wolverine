@@ -46,13 +46,11 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	
 	//set httpheader
 	String Authorization = "Bearer "+GlobalVariable.access_token
-	String AppID=GlobalVariable.appID_retribusi
 	
 	//post httpheader
 	ArrayList HTTPHeader = new ArrayList()
 	HTTPHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS,'application/json'))
 	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,Authorization))
-	HTTPHeader.add(new TestObjectProperty('Apps-ID', ConditionType.EQUALS,AppID))
 	Types.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Types)

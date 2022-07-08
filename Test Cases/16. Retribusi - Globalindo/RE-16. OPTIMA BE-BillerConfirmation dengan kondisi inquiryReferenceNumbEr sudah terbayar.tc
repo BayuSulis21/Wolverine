@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-16. OPTIMA BE-BillerConfirmation dengan kondisi inquiryReferenceNumbEr sudah terbayar</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>4a77c7c1-b622-46a0-a00c-e3e54024e5ed</testCaseGuid>
-</TestCaseEntity>
