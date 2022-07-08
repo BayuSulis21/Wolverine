@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-10. OPTIMA BE-BillerConfirmation dengan kondisi userapikey invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebe59f14-cdaf-4479-99a7-434276f4c227</testCaseGuid>
+</TestCaseEntity>

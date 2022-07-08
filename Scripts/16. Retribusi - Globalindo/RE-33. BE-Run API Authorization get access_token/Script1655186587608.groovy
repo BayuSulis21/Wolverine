@@ -43,14 +43,15 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	
 	//set httpheader
 	String Accept = "application/json"
-	String Auth=GlobalVariable.access_token
+	String Auth="Bearer "+GlobalVariable.access_token
 	
 	//set httpbody
 	String username=GlobalVariable.username_retribusi
 	String password=GlobalVariable.password_retribusi
 	  
 	//post httpbody
-	String jsonbody = '{"username": "'+username+'","password": "'+password+'"}'
+	String jsonbody = '{"username": "'+username+
+					  '","password": "'+password+'"}'
 	WebUI.comment(jsonbody)
 	Authorization.setBodyContent(new HttpTextBodyContent(jsonbody, "UTF-8", "application/json"))
 	

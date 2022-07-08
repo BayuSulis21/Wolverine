@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_Biller Management</name>
+   <tag></tag>
+   <elementGuidId>d13eeecb-e353-4953-9056-62cc3ede6dbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='access-menu']/li[3]/a/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>456631c9-1288-4578-b316-a1640bd586fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Biller Management</value>
+      <webElementGuid>5715e5a9-54c3-43f9-b2ed-7fd99632a43f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;access-menu&quot;)/li[@class=&quot;nav-item&quot;]/a[1]/p[1]</value>
+      <webElementGuid>51d90f07-57cf-4d2a-b826-7d14f7b8d445</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='access-menu']/li[3]/a/p</value>
+      <webElementGuid>ed74e290-0773-47cd-a39e-1e6cefce583c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role Maintenance Approval'])[1]/following::p[1]</value>
+      <webElementGuid>5a56fb7b-0a75-4c22-a90b-f2af9604bd3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role Maintenance'])[1]/following::p[1]</value>
+      <webElementGuid>acfc822f-4317-4632-a606-3d795a5b4e73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maintenance Biller Price'])[1]/preceding::p[1]</value>
+      <webElementGuid>2e3b3c09-255b-4587-bfd0-86052d55dbd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maintenance Biller Price Approval'])[1]/preceding::p[1]</value>
+      <webElementGuid>cc9cc65e-7393-4277-8bbc-dcb00d97755f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Biller Management']/parent::*</value>
+      <webElementGuid>9e5b53e5-b0b8-4c83-a9f3-9c784b68c1bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/p</value>
+      <webElementGuid>44bbf40b-3cce-47af-8170-875a45488a2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Biller Management' or . = 'Biller Management')]</value>
+      <webElementGuid>c87ee582-9938-413d-803c-f6a8613674b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

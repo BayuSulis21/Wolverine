@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-08. OPTIMA BE-billerinquiry dengan LocationID invalid atau empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da3768de-e52e-4655-bbb9-13c9baca2d5a</testCaseGuid>
+</TestCaseEntity>

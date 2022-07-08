@@ -37,25 +37,38 @@ import org.apache.commons.codec.binary.Base64;
 import com.kms.katalon.core.testobject.impl.HttpTextBodyContent //for text in body
 import com.kms.katalon.core.testobject.impl.HttpFileBodyContent //for file in body
 import com.kms.katalon.core.testobject.impl.HttpFormDataBodyContent //for form data body
-import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL encoded text body
+import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent
 
- 
+import java.text.ParseException
+import java.text.SimpleDateFormat
+
+	def date = new Date()
+	issued_posted_date = new SimpleDateFormat("yyyy-MM-dd")
+	
 	String location_id=1
-	String code="GR9999"
+	String code=GlobalVariable.code_retribusi_belum_bayar1
 	String payment_type="payment-channel"
 	String refnum="BAYU1001"
-	String issuer="ottocash"
-	String issued_at="2022-06-15"
-	String posted_at="2022-06-15"
+	String issuer="ottocash123"
+	String issued_at= issued_posted_date.format(date)
+	String posted_at= issued_posted_date.format(date)
 	String amount="6000"
 	RequestObject Payment=findTestObject('Object Repository/Retribusi - Globalindo/Payment by Location ID', [('location_id') :location_id])
 	
+	WebUI.comment("Get Access Token")
 	WS.callTestCase(findTestCase('16. Retribusi - Globalindo/RE-33. BE-Run API Authorization get access_token'), null)
 	
 	//set httpheader
 	String Authorization = "Bearer "+GlobalVariable.access_token
+	String AppID=GlobalVariable.appID_retribusi
 	
-	String jsonbody = '{"code": "'+code+'","payment_type": "'+payment_type+'","refnum": "'+refnum+'","issuer": "'+issuer+'","issued_at": "'+issued_at+'","posted_at": "'+posted_at+'","amount": "'+amount+'"}'
+	String jsonbody = '{"code": "'+code+
+	                  '","payment_type": "'+payment_type+
+					  '","refnum": "'+refnum+
+					  '","issuer": "'+issuer+
+					  '","issued_at": "'+issued_at+
+					  '","posted_at": "'+posted_at+
+					  '","amount": '+amount+'}'
 	WebUI.comment(jsonbody)
 	
 	//post httpbody
@@ -64,10 +77,12 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	ArrayList HTTPHeader = new ArrayList()
 	HTTPHeader.add(new TestObjectProperty('Content-Type', ConditionType.EQUALS,'application/json'))
 	HTTPHeader.add(new TestObjectProperty('Authorization', ConditionType.EQUALS,Authorization))
+	HTTPHeader.add(new TestObjectProperty('Apps-ID', ConditionType.EQUALS,AppID))
 	Payment.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Payment)
-	WS.verifyResponseStatusCode(responseObj, 400)
+	WS.verifyResponseStatusCode(responseObj, 200)
 	JsonSlurper slurper = new JsonSlurper()
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
 	WebUI.comment(parsedJson.toString())
+

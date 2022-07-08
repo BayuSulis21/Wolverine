@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>4b70032f-b492-4c61-9b66-8fdec591c23f</dataFileGUID>
-   <dataSourceUrl>/Users/bayusulistyo/Documents/OttoCash-Mobile/excel/penarikan_uang.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/bayusulistyo/Documents/GitHub/Wolverine/excel/penarikan_uang.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-34.1. BE-Run API Retribusi dengan kondisi username invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc1006fd-f462-49e4-b976-9d877b46231f</testCaseGuid>
+</TestCaseEntity>

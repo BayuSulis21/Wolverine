@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-07. OPTIMA BE-billerinquiry dengan CustomerID invalid atau empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2d17858-1eea-48cb-a658-0158e5332650</testCaseGuid>
+</TestCaseEntity>
