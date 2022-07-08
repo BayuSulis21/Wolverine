@@ -67,7 +67,7 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	Payment.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Payment)
-	WS.verifyResponseStatusCode(responseObj, 400)
+	//WS.verifyResponseStatusCode(responseObj, 400)
 	JsonSlurper slurper = new JsonSlurper()
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
 	WebUI.comment(parsedJson.toString())
