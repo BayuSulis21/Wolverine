@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-16. OPTIMA BE-BillerConfirmation dengan kondisi Customer ID dan Location ID sudah terbayar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fecd489e-610c-443f-92b4-362dcee15846</testCaseGuid>
+</TestCaseEntity>

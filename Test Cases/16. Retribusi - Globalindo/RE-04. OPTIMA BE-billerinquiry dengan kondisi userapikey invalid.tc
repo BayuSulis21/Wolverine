@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-04. OPTIMA BE-billerinquiry dengan kondisi userapikey invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb10d1c8-a5fd-4418-b85e-48fada822a3f</testCaseGuid>
+</TestCaseEntity>

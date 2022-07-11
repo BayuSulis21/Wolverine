@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-49. BE-Payment Retribusi dengan kondisi issuer invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e483b583-901d-4c4a-83bd-300b88b54101</testCaseGuid>
+</TestCaseEntity>

@@ -45,11 +45,11 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	RequestObject generatedUserApiKey=findTestObject('Object Repository/optima/generateUserApiKey')
 		
 	//set httpheader
-	String appName = "INDOLIFE"
+	String appName = GlobalVariable.appID_retribusi
 	String dateTimeRequest = "2022-06-20 09:00:00"
 	
 	String jsonbody = '{"userType": "'+userType+'"}'
-	WebUI.comment(jsonbody)
+	WebUI.comment("Request:"+ jsonbody)
 	
 	//post httpbody
 	generatedUserApiKey.setBodyContent(new HttpTextBodyContent(jsonbody, "UTF-8", "application/json"))
@@ -64,7 +64,7 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	WS.verifyResponseStatusCode(responseObj, 200)
 	JsonSlurper slurper = new JsonSlurper()
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
-	WebUI.comment(parsedJson.toString())
+	WebUI.comment("Response:"+ parsedJson.toString())
 	
 	String userApiKey_hasil = parsedJson.get("data").get("userApiKey")
 	GlobalVariable.userApiKey_retribusi=userApiKey_hasil

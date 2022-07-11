@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-52. BE-Payment Retribusi sudah success dibayar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff69c73f-dbb6-4812-ae5f-43342594ec92</testCaseGuid>
+</TestCaseEntity>

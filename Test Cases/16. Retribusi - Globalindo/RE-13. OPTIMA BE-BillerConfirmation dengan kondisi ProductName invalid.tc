@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-13. OPTIMA BE-BillerConfirmation dengan kondisi ProductName invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77738e6f-1977-4e63-adda-c5a61632b100</testCaseGuid>
+</TestCaseEntity>

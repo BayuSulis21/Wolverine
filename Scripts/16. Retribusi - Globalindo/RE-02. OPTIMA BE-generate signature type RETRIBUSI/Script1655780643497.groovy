@@ -39,24 +39,35 @@ import com.kms.katalon.core.testobject.impl.HttpFileBodyContent //for file in bo
 import com.kms.katalon.core.testobject.impl.HttpFormDataBodyContent //for form data body
 import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL encoded text body
 
- 
-	String userType="test"
-	
+import java.text.SimpleDateFormat
+
+	//GET UserApiKey
+	WS.callTestCase(findTestCase('16. Retribusi - Globalindo/RE-01. OPTIMA BE-generateUserApiKey'), null)
+
 	RequestObject generatedUserApiKey=findTestObject('Object Repository/optima/generate signature')
 		
 	//set httpheader
-	String appName = "INDOLIFE"
-	String dateTimeRequest = "2022-06-20 09:00:00"
+	String appName = GlobalVariable.appID_retribusi
+	def date = new Date()
+	def sdf = new SimpleDateFormat("yyyy-dd-MM HH:mm:ss")
+	String dateTimeRequest = sdf.format(date)
 	
 	//set httpbody
 	String userApiKey=GlobalVariable.userApiKey_retribusi
-	String type="PULSA"
-	String productName="XL 20000"
-	String customerId=GlobalVariable.hp
+	String type="RETRIBUSI"
+	String productName="RETRIBUSI GLOBALINDO"
+	String customerId=GlobalVariable.code_retribusi1
+	String locationId=GlobalVariable.locationID_retribusi
 	
 	
-	String jsonbody = '{"userApiKey": "'+userApiKey+'","type": "'+type+'","productName": "'+productName+'","customerId": "'+customerId+'"}'
-	WebUI.comment(jsonbody)
+	String jsonbody = '{'+
+					  '"userApiKey": "'+userApiKey+'",'+
+					  '"type": "'+type+'",'+
+					  '"productName": "'+productName+'",'+
+					  '"customerId": "'+customerId+'",'+
+					  '"locationId": '+locationId+
+					  '}'
+	WebUI.comment("Request:"+ jsonbody)
 	
 	//post httpbody
 	generatedUserApiKey.setBodyContent(new HttpTextBodyContent(jsonbody, "UTF-8", "application/json"))
@@ -71,9 +82,9 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	WS.verifyResponseStatusCode(responseObj, 200)
 	JsonSlurper slurper = new JsonSlurper()
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
-	WebUI.comment(parsedJson.toString())
+	WebUI.comment("Response:"+ parsedJson.toString())
 	
-	String userApiKey_hasil = parsedJson.get("data").get("signature")
-	GlobalVariable.signature_retribusi=userApiKey_hasil
-	WebUI.comment(userApiKey_hasil)
+	String signature_retribusi = parsedJson.get("data").get("signature")
+	GlobalVariable.signature_retribusi=signature_retribusi
+	WebUI.comment(signature_retribusi)
 	

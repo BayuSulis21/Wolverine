@@ -56,7 +56,7 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	Location.setHttpHeaderProperties(HTTPHeader)
 	
 	def responseObj = WS.sendRequest(Location)
-	WS.verifyResponseStatusCode(responseObj, 400)
+	WS.verifyResponseStatusCode(responseObj, 200)
 	JsonSlurper slurper = new JsonSlurper()
 	Map parsedJson = slurper.parseText(responseObj.getResponseText())
 	WebUI.comment(parsedJson.toString())

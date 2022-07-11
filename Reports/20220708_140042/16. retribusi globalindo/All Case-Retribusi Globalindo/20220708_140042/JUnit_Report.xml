@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Case-Retribusi Globalindo" time="8.728" tests="2" failures="0" errors="0">
+   <testsuite name="All Case-Retribusi Globalindo" tests="2" failures="0" errors="0" time="8.728" skipped="0" timestamp="2022-07-08 14:00:46" hostname="bayusulistyo - adsl-172-10-8-73.dsl.sndg02.sbcglobal.net" id="Test Suites/16. retribusi globalindo/All Case-Retribusi Globalindo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220708_140042/16. retribusi globalindo/All Case-Retribusi Globalindo/20220708_140042"/>
+         <property name="logFiles" value="/Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220708_140042/16. retribusi globalindo/All Case-Retribusi Globalindo/20220708_140042/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bayusulistyo - adsl-172-10-8-73.dsl.sndg02.sbcglobal.net"/>
+         <property name="hostAddress" value="172.10.8.73"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+      </properties>
+      <testcase name="Test Cases/16. Retribusi - Globalindo/RE-01. OPTIMA BE-generateUserApiKey" time="6.7" classname="Test Cases/16. Retribusi - Globalindo/RE-01. OPTIMA BE-generateUserApiKey" status="PASSED">
+         <system-out><![CDATA[2022-07-08 14:00:47 - [TEST_CASE][PASSED] - Test Cases/16. Retribusi - Globalindo/RE-01. OPTIMA BE-generateUserApiKey: Test Cases/16. Retribusi - Globalindo/RE-01. OPTIMA BE-generateUserApiKey
+
+2022-07-08 14:00:48 - [TEST_STEP][PASSED] - userType = "test": null
+
+2022-07-08 14:00:48 - [TEST_STEP][PASSED] - generatedUserApiKey = findTestObject("Object Repository/optima/generateUserApiKey"): null
+
+2022-07-08 14:00:50 - [TEST_STEP][PASSED] - appName = "INDOLIFE": null
+
+2022-07-08 14:00:50 - [TEST_STEP][PASSED] - dateTimeRequest = "2022-06-20 09:00:00": null
+
+2022-07-08 14:00:50 - [TEST_STEP][PASSED] - jsonbody = "{"userType": "" + userType + ""}": null
+
+2022-07-08 14:00:50 - [TEST_STEP][PASSED] - comment(jsonbody): {"userType": "test"}
+
+2022-07-08 14:00:51 - [MESSAGE][INFO] - {"userType": "test"}
+
+2022-07-08 14:00:51 - [TEST_STEP][PASSED] - generatedUserApiKey.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(jsonbody, UTF-8, application/json)): null
+
+2022-07-08 14:00:51 - [TEST_STEP][PASSED] - HTTPHeader = new java.util.ArrayList(): null
+
+2022-07-08 14:00:51 - [TEST_STEP][PASSED] - HTTPHeader.add(new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)): null
+
+2022-07-08 14:00:51 - [TEST_STEP][PASSED] - HTTPHeader.add(new com.kms.katalon.core.testobject.TestObjectProperty(appName, com.kms.katalon.core.testobject.ConditionType.EQUALS, appName)): null
+
+2022-07-08 14:00:51 - [TEST_STEP][PASSED] - HTTPHeader.add(new com.kms.katalon.core.testobject.TestObjectProperty(dateTimeRequest, com.kms.katalon.core.testobject.ConditionType.EQUALS, dateTimeRequest)): null
+
+2022-07-08 14:00:51 - [TEST_STEP][PASSED] - generatedUserApiKey.setHttpHeaderProperties(HTTPHeader): null
+
+2022-07-08 14:00:51 - [TEST_STEP][PASSED] - responseObj = sendRequest(generatedUserApiKey): Send request successfully
+
+2022-07-08 14:00:53 - [MESSAGE][INFO] - HAR: /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220708_140042/16. retribusi globalindo/All Case-Retribusi Globalindo/20220708_140042/requests/main/0.har
+
+2022-07-08 14:00:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-08 14:00:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(responseObj, 200): Verify response status code successfully
+
+2022-07-08 14:00:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-08 14:00:53 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-08 14:00:53 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseObj.getResponseText()): null
+
+2022-07-08 14:00:53 - [TEST_STEP][PASSED] - comment(parsedJson.toString()): {data={userType=test, userApiKey=1657263653120126124}, meta={idRequest=165726365312941723, appName=INDOLIFE, responseCode=00, responseMessage=Generate User Api Key Success, datetimeResponse=2022-07-08 14:00:53}}
+
+2022-07-08 14:00:53 - [MESSAGE][INFO] - {data={userType=test, userApiKey=1657263653120126124}, meta={idRequest=165726365312941723, appName=INDOLIFE, responseCode=00, responseMessage=Generate User Api Key Success, datetimeResponse=2022-07-08 14:00:53}}
+
+2022-07-08 14:00:53 - [TEST_STEP][PASSED] - userApiKey_hasil = get("data").get("userApiKey"): null
+
+2022-07-08 14:00:53 - [TEST_STEP][PASSED] - userApiKey_retribusi = userApiKey_hasil: null
+
+2022-07-08 14:00:53 - [TEST_STEP][PASSED] - comment(userApiKey_hasil): 1657263653120126124
+
+2022-07-08 14:00:53 - [MESSAGE][INFO] - 1657263653120126124]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/16. Retribusi - Globalindo/RE-02. OPTIMA BE-generate signature type RETRIBUSI" time="1.457" classname="Test Cases/16. Retribusi - Globalindo/RE-02. OPTIMA BE-generate signature type RETRIBUSI" status="PASSED">
+         <system-out><![CDATA[2022-07-08 14:00:53 - [TEST_CASE][PASSED] - Test Cases/16. Retribusi - Globalindo/RE-02. OPTIMA BE-generate signature type RETRIBUSI: Test Cases/16. Retribusi - Globalindo/RE-02. OPTIMA BE-generate signature type RETRIBUSI
+
+2022-07-08 14:00:54 - [TEST_STEP][PASSED] - userType = "test": null
+
+2022-07-08 14:00:54 - [TEST_STEP][PASSED] - generatedUserApiKey = findTestObject("Object Repository/optima/generate signature"): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - appName = appID_retribusi: null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - sdf = new java.text.SimpleDateFormat(yyyy-dd-MM HH:mm:ss): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - dateTimeRequest = sdf: null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - userApiKey = userApiKey_retribusi: null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - type = "RETRIBUSI": null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - productName = "RETRIBUSI GLOBALINDO": null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - customerId = code_retribusi1: null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - locationId = locationID_retribusi: null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - jsonbody = "{": null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - ""userApiKey": "" + userApiKey + "","type": "" + type + "","productName": "" + productName + "","customerId": "" + customerId + "","locationId": "" + locationId + ""}": null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - comment(jsonbody): {
+
+2022-07-08 14:00:55 - [MESSAGE][INFO] - {
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - generatedUserApiKey.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(jsonbody, UTF-8, application/json)): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - HTTPHeader = new java.util.ArrayList(): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - HTTPHeader.add(new com.kms.katalon.core.testobject.TestObjectProperty(Content-Type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - HTTPHeader.add(new com.kms.katalon.core.testobject.TestObjectProperty(appName, com.kms.katalon.core.testobject.ConditionType.EQUALS, appName)): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - HTTPHeader.add(new com.kms.katalon.core.testobject.TestObjectProperty(dateTimeRequest, com.kms.katalon.core.testobject.ConditionType.EQUALS, dateTimeRequest)): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - generatedUserApiKey.setHttpHeaderProperties(HTTPHeader): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - responseObj = sendRequest(generatedUserApiKey): Send request successfully
+
+2022-07-08 14:00:55 - [MESSAGE][INFO] - HAR: /Users/bayusulistyo/Documents/GitHub/Wolverine/Reports/20220708_140042/16. retribusi globalindo/All Case-Retribusi Globalindo/20220708_140042/requests/main/1.har
+
+2022-07-08 14:00:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(responseObj, 200): Verify response status code successfully
+
+2022-07-08 14:00:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(responseObj.getResponseText()): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - comment(parsedJson.toString()): {data={signature=ITrrVp9kzSABWMuhYNxe25zAoR0GbXoUW/3JLxRmheM=}, meta={idRequest=165726365536737153, appName=GLOBALINDO, responseCode=00, responseMessage=Generate Signature Success, datetimeResponse=2022-07-08 14:00:55}}
+
+2022-07-08 14:00:55 - [MESSAGE][INFO] - {data={signature=ITrrVp9kzSABWMuhYNxe25zAoR0GbXoUW/3JLxRmheM=}, meta={idRequest=165726365536737153, appName=GLOBALINDO, responseCode=00, responseMessage=Generate Signature Success, datetimeResponse=2022-07-08 14:00:55}}
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - signature_retribusi = get("data").get("signature"): null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - signature_retribusi = signature_retribusi: null
+
+2022-07-08 14:00:55 - [TEST_STEP][PASSED] - comment(signature_retribusi): ITrrVp9kzSABWMuhYNxe25zAoR0GbXoUW/3JLxRmheM=
+
+2022-07-08 14:00:55 - [MESSAGE][INFO] - ITrrVp9kzSABWMuhYNxe25zAoR0GbXoUW/3JLxRmheM=]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-08 14:00:46 - [TEST_SUITE][PASSED] - All Case-Retribusi Globalindo: Test Cases/16. Retribusi - Globalindo/RE-02. OPTIMA BE-generate signature type RETRIBUSI]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -41,7 +41,7 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 
  
 	String location_id=1
-	String code="GR9999"
+	String code=GlobalVariable.code_retribusi2
 	RequestObject Location=findTestObject('Object Repository/Retribusi - Globalindo/Inquiry by Location ID', [('location_id') :location_id,('code') :code])
 	
 	WS.callTestCase(findTestCase('16. Retribusi - Globalindo/RE-33. BE-Run API Authorization get access_token'), null)

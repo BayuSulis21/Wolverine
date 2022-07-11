@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-03. OPTIMA BE-billerinquiry dengan type RETRIBUSI dengan kondisi success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d40da80d-6692-47e5-9943-af3152381631</testCaseGuid>
+</TestCaseEntity>

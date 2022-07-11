@@ -311,12 +311,42 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'bayusulistyo07@gmail.com'</initValue>
+      <initValue>'global-retribusi'</initValue>
       <name>username_retribusi</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'BayuSulis21'</initValue>
+      <initValue>'admin1234'</initValue>
       <name>password_retribusi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GLOBALINDO'</initValue>
+      <name>appID_retribusi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GR0049'</initValue>
+      <name>code_retribusi1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GR0338'</initValue>
+      <name>code_retribusi2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>locationID_retribusi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>amount_retribusi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>inquiryReferenceNumber</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

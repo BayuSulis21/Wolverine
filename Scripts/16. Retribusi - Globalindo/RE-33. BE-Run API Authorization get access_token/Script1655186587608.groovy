@@ -43,7 +43,7 @@ import com.kms.katalon.core.testobject.impl.HttpUrlEncodedBodyContent //for URL 
 	
 	//set httpheader
 	String Accept = "application/json"
-	String Auth=GlobalVariable.access_token
+	String Auth="Bearer "+GlobalVariable.access_token
 	
 	//set httpbody
 	String username=GlobalVariable.username_retribusi

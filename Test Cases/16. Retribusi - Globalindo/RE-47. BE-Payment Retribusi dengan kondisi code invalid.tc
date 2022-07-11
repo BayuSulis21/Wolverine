@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-47. BE-Payment Retribusi dengan kondisi code invalid</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ee7c5262-ee76-4271-aac7-d5a708161eab</testCaseGuid>
-</TestCaseEntity>

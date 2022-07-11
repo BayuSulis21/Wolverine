@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-14. OPTIMA BE-BillerConfirmation dengan kondisi CustomerId invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2aaadb4-e4b0-43fc-a5ff-9b06f4424589</testCaseGuid>
+</TestCaseEntity>

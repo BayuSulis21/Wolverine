@@ -330,6 +330,36 @@ Profile backup : Nominal bayar test QRIS</p>
     /**
      * <p></p>
      */
+    public static Object appID_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object code_retribusi1
+     
+    /**
+     * <p></p>
+     */
+    public static Object code_retribusi2
+     
+    /**
+     * <p></p>
+     */
+    public static Object locationID_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object amount_retribusi
+     
+    /**
+     * <p></p>
+     */
+    public static Object inquiryReferenceNumber
+     
+    /**
+     * <p></p>
+     */
     public static Object secretKey
      
 
@@ -402,6 +432,12 @@ Profile backup : Nominal bayar test QRIS</p>
             signature_retribusi = selectedVariables['signature_retribusi']
             username_retribusi = selectedVariables['username_retribusi']
             password_retribusi = selectedVariables['password_retribusi']
+            appID_retribusi = selectedVariables['appID_retribusi']
+            code_retribusi1 = selectedVariables['code_retribusi1']
+            code_retribusi2 = selectedVariables['code_retribusi2']
+            locationID_retribusi = selectedVariables['locationID_retribusi']
+            amount_retribusi = selectedVariables['amount_retribusi']
+            inquiryReferenceNumber = selectedVariables['inquiryReferenceNumber']
             secretKey = selectedVariables['secretKey']
             
         } catch (Exception e) {
