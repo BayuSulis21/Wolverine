@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_inquiry</name>
+   <tag></tag>
+   <elementGuidId>c04bd48f-f0b0-49bc-a138-dc04b57a8994</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@onclick=&quot;goToBillerEdit('GLOBALINDO')&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>2c362472-21e7-4aaf-8a36-dadb64f06be2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>goToBillerEdit('GLOBALINDO')</value>
+      <webElementGuid>e8eded52-8d4c-4beb-bd5b-ff35d7a12471</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        RETRIBUSI GLOBALINDO</value>
+      <webElementGuid>327ac430-85d3-41ea-9d34-15e3cf7c6f19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;target-content&quot;)/tr[@class=&quot;row-lookup&quot;]/td[2]</value>
+      <webElementGuid>812b000b-f930-48fc-934a-41e44612412d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@onclick=&quot;goToBillerEdit('GLOBALINDO')&quot;]</value>
+      <webElementGuid>afe69f7f-3908-4bc8-b74d-add323cf7948</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='target-content']/tr/td[2]</value>
+      <webElementGuid>19ff7991-3e1d-4f91-9c9c-91b9b5dd5fed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga UserJOB2GO'])[2]/following::td[2]</value>
+      <webElementGuid>ffab00ac-c558-4d9d-be73-76345ca8ae39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga UserOTTOSG'])[1]/following::td[2]</value>
+      <webElementGuid>4290efd9-0482-4f7e-b199-2a72f1432bb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GLOBALINDO'])[2]/preceding::td[2]</value>
+      <webElementGuid>b8839026-5e64-4f10-8fbd-ff632ead91f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GLOBALINDO'])[3]/preceding::td[3]</value>
+      <webElementGuid>ab719860-4bc0-4c8f-8a39-fed6c25d0a2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='RETRIBUSI GLOBALINDO']/parent::*</value>
+      <webElementGuid>6c9216e3-26ec-4cda-b2d0-fbfcc28b90f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]</value>
+      <webElementGuid>0955ca4a-0292-4e0d-8e00-0f0131da8310</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+        RETRIBUSI GLOBALINDO' or . = '
+        RETRIBUSI GLOBALINDO')]</value>
+      <webElementGuid>bc63a40d-4c13-4086-b405-86a5d91eaf14</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_sub_Aggregator List</name>
+   <tag></tag>
+   <elementGuidId>b402cb93-87db-4239-898c-25cd5457c1bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='biller']/ul/li[4]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2562c646-3ed0-4f5c-96ee-9790a8efd0b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sub-item</value>
+      <webElementGuid>fe8ae9bc-6807-4ef6-a077-8bd795a32eaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aggregator List</value>
+      <webElementGuid>d3686170-60c5-4071-afc5-5dbbf4d713b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;biller&quot;)/ul[@class=&quot;nav nav-collapse&quot;]/li[4]/a[1]/span[@class=&quot;sub-item&quot;]</value>
+      <webElementGuid>d3e1ffd0-0525-4162-b648-f681c45636d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='biller']/ul/li[4]/a/span</value>
+      <webElementGuid>b2359423-da27-4df6-be94-800b77ea758f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Biller Transaction'])[1]/following::span[1]</value>
+      <webElementGuid>ba5a1ac4-9b60-4cc6-8515-c537f2306ef8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maintenance Biller Price Approval'])[1]/following::span[2]</value>
+      <webElementGuid>1fe1a14c-6920-49ea-9efa-c789dcc81b1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active Product List'])[1]/preceding::span[1]</value>
+      <webElementGuid>ab445812-a3d9-4645-a778-ad7600bdb53d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Discrepancy Biller Price Midnight Check'])[1]/preceding::span[2]</value>
+      <webElementGuid>555b841e-d5a7-45d4-8908-e9ee7eb99019</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Aggregator List']/parent::*</value>
+      <webElementGuid>cdc479dc-3208-44dc-951a-fe64509d24c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/ul/li[4]/a/span</value>
+      <webElementGuid>2aa0b717-df97-4d14-852c-e06e9558d88a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Aggregator List' or . = 'Aggregator List')]</value>
+      <webElementGuid>5f9a1722-82a5-41e3-9d23-5697aaeda8c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

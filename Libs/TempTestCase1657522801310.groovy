@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/_x/hzlzwd8j20gfzg0809vw8zhh0000gq/T/Katalon/Test Cases/16. Retribusi - Globalindo/RE-51. BE-Payment Retribusi success/20220711_110648/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/_x/hzlzwd8j20gfzg0809vw8zhh0000gq/T/Katalon/Test Cases/16. Retribusi - Globalindo/RE-20. OPTIMA FE-Melakukan inquiry active product list/20220711_140001/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/16. Retribusi - Globalindo/RE-51. BE-Payment Retribusi success', new TestCaseBinding('Test Cases/16. Retribusi - Globalindo/RE-51. BE-Payment Retribusi success',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/16. Retribusi - Globalindo/RE-20. OPTIMA FE-Melakukan inquiry active product list', new TestCaseBinding('Test Cases/16. Retribusi - Globalindo/RE-20. OPTIMA FE-Melakukan inquiry active product list',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
